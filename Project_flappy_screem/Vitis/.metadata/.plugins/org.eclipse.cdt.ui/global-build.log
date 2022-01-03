@@ -1,0 +1,91 @@
+Nothing to build in platform 'NeoPixelV10'
+
+17:07:16 **** Incremental Build of configuration Debug for project Led_matrix_V11_cpp ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Xilinx/EOS/Project_flappy_screem/Vitis/NeoPixelV10/export/NeoPixelV10/sw/NeoPixelV10/freertos10_xilinx_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+'Finished building: ../src/main.cpp'
+' '
+'Building file: ../src/matrix.cpp'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matrix.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Xilinx/EOS/Project_flappy_screem/Vitis/NeoPixelV10/export/NeoPixelV10/sw/NeoPixelV10/freertos10_xilinx_domain/bspinclude/include -MMD -MP -MF"src/matrix.d" -MT"src/matrix.o" -o "src/matrix.o" "../src/matrix.cpp"
+In file included from ../src/matrix.cpp:1:
+../src/matrix.h: In constructor 'matrix::matrix(unsigned int)':
+../src/matrix.h:52:29: warning: 'matrix::bramAdresses' will be initialized after [-Wreorder]
+   52 |  const vector<unsigned int> bramAdresses;
+      |                             ^~~~~~~~~~~~
+../src/matrix.h:46:15: warning:   'unsigned int matrix::fps' [-Wreorder]
+   46 |  unsigned int fps;
+      |               ^~~
+../src/matrix.cpp:3:1: warning:   when initialized here [-Wreorder]
+    3 | matrix::matrix(unsigned int fpstmp)
+      | ^~~~~~
+In file included from ../src/matrix.cpp:1:
+../src/matrix.h:51:26: warning: 'matrix::col' will be initialized after [-Wreorder]
+   51 |  const unsigned int row, col;
+      |                          ^~~
+../src/matrix.h:49:13: warning:   'const char matrix::numberOfBuf' [-Wreorder]
+   49 |  const char numberOfBuf;
+      |             ^~~~~~~~~~~
+../src/matrix.cpp:3:1: warning:   when initialized here [-Wreorder]
+    3 | matrix::matrix(unsigned int fpstmp)
+      | ^~~~~~
+In file included from ../src/matrix.cpp:1:
+../src/matrix.h:49:13: warning: 'matrix::numberOfBuf' will be initialized after [-Wreorder]
+   49 |  const char numberOfBuf;
+      |             ^~~~~~~~~~~
+../src/matrix.h:45:7: warning:   'char matrix::bufnumber' [-Wreorder]
+   45 |  char bufnumber;
+      |       ^~~~~~~~~
+../src/matrix.cpp:3:1: warning:   when initialized here [-Wreorder]
+    3 | matrix::matrix(unsigned int fpstmp)
+      | ^~~~~~
+In file included from ../src/matrix.cpp:1:
+../src/matrix.h: In constructor 'matrix::matrix(unsigned int, std::vector<unsigned int>, unsigned int, unsigned int, unsigned int, unsigned int)':
+../src/matrix.h:52:29: warning: 'matrix::bramAdresses' will be initialized after [-Wreorder]
+   52 |  const vector<unsigned int> bramAdresses;
+      |                             ^~~~~~~~~~~~
+../src/matrix.h:46:15: warning:   'unsigned int matrix::fps' [-Wreorder]
+   46 |  unsigned int fps;
+      |               ^~~
+../src/matrix.cpp:8:1: warning:   when initialized here [-Wreorder]
+    8 | matrix::matrix(unsigned int ledNumtmp, vector<unsigned int> bramAdressestmp, unsigned int fpstmp, unsigned int rowtmp, unsigned int coltmp, unsigned int numberOfBuftmp)
+      | ^~~~~~
+In file included from ../src/matrix.cpp:1:
+../src/matrix.h:51:26: warning: 'matrix::col' will be initialized after [-Wreorder]
+   51 |  const unsigned int row, col;
+      |                          ^~~
+../src/matrix.h:49:13: warning:   'const char matrix::numberOfBuf' [-Wreorder]
+   49 |  const char numberOfBuf;
+      |             ^~~~~~~~~~~
+../src/matrix.cpp:8:1: warning:   when initialized here [-Wreorder]
+    8 | matrix::matrix(unsigned int ledNumtmp, vector<unsigned int> bramAdressestmp, unsigned int fpstmp, unsigned int rowtmp, unsigned int coltmp, unsigned int numberOfBuftmp)
+      | ^~~~~~
+In file included from ../src/matrix.cpp:1:
+../src/matrix.h:49:13: warning: 'matrix::numberOfBuf' will be initialized after [-Wreorder]
+   49 |  const char numberOfBuf;
+      |             ^~~~~~~~~~~
+../src/matrix.h:45:7: warning:   'char matrix::bufnumber' [-Wreorder]
+   45 |  char bufnumber;
+      |       ^~~~~~~~~
+../src/matrix.cpp:8:1: warning:   when initialized here [-Wreorder]
+    8 | matrix::matrix(unsigned int ledNumtmp, vector<unsigned int> bramAdressestmp, unsigned int fpstmp, unsigned int rowtmp, unsigned int coltmp, unsigned int numberOfBuftmp)
+      | ^~~~~~
+'Finished building: ../src/matrix.cpp'
+' '
+'Building target: Led_matrix_V11_cpp.elf'
+'Invoking: ARM v7 g++ linker'
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Xilinx/EOS/Project_flappy_screem/Vitis/NeoPixelV10/export/NeoPixelV10/sw/NeoPixelV10/freertos10_xilinx_domain/bsplib/lib -o "Led_matrix_V11_cpp.elf"  ./src/main.o ./src/matrix.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: Led_matrix_V11_cpp.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Led_matrix_V11_cpp.elf  |tee "Led_matrix_V11_cpp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 176506	   3352	  88788	 268646	  41966	Led_matrix_V11_cpp.elf
+'Finished building: Led_matrix_V11_cpp.elf.size'
+' '

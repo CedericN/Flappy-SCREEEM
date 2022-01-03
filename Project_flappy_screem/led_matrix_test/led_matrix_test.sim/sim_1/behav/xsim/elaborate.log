@@ -1,0 +1,35 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programmas/xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto edc28024d1e9425d9aab6c37560fed90 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1_wrapper_behav xil_defaultlib.design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_arith
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.LedMatrixCode [ledmatrixcode_default]
+Compiling architecture design_1_ledmatrixcode_0_0_arch of entity xil_defaultlib.design_1_LedMatrixCode_0_0 [design_1_ledmatrixcode_0_0_defau...]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=15.5,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.design_1_clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.design_1_clk_wiz_0
+Compiling architecture startupe2_v of entity unisim.STARTUPE2 [\STARTUPE2(1,5)\]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture behavioral of entity xil_defaultlib.vhdlnoclk [vhdlnoclk_default]
+Compiling architecture design_1_vhdlnoclk_0_2_arch of entity xil_defaultlib.design_1_vhdlnoclk_0_2 [design_1_vhdlnoclk_0_2_default]
+Compiling architecture structure of entity xil_defaultlib.design_1 [design_1_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_wrapper
+Built simulation snapshot design_1_wrapper_behav

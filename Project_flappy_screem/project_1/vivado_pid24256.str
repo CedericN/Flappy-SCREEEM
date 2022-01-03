@@ -1,0 +1,176 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 24256
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Jan 03 11:20:54 CET 2022
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 2
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/Programmas/xilinx/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	D:/Programmas/xilinx/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Cederic
+User home directory: C:/Users/Nijss
+User working directory: D:/Nijssen_Cederic/download/PMODI2S2/project_1
+User country: 	BE
+User language: 	nl
+User locale: 	nl_BE
+
+RDI_BASEROOT: D:/Programmas/xilinx/Vivado
+HDI_APPROOT: D:/Programmas/xilinx/Vivado/2021.1
+RDI_DATADIR: D:/Programmas/xilinx/Vivado/2021.1/data
+RDI_BINDIR: D:/Programmas/xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/Nijss/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/Nijss/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/Nijss/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	D:/Programmas/xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	D:/Nijssen_Cederic/download/PMODI2S2/project_1/vivado.log
+Vivado journal file: 	D:/Nijssen_Cederic/download/PMODI2S2/project_1/vivado.jou
+Engine tmp dir: 	D:/Nijssen_Cederic/download/PMODI2S2/project_1/.Xil/Vivado-24256-HP-CE
+
+Xilinx Environment Variables
+----------------------------
+TWINCATSDK: D:\Programmas\twinCAT\3.1\SDK\
+XILINX: D:/Programmas/xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: D:/Programmas/xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: D:/Programmas/xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: D:/Programmas/xilinx/Vivado/2021.1
+XILINX_SDK: D:/Programmas/xilinx/Vitis/2021.1
+XILINX_VITIS: D:/Programmas/xilinx/Vitis/2021.1
+XILINX_VIVADO: D:/Programmas/xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: D:/Programmas/xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,285 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: D:\Nijssen_Cederic\download\PMODI2S2\project_1\project_1.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project D:/Nijssen_Cederic/download/PMODI2S2/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,285 MB. GUI used memory: 66 MB. Current time: 1/3/22, 11:20:55 AM CET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/Nijssen_Cederic/download/PMODI2S2/project_1/project_1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/devWorks/pmodi2s2/project_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programmas/xilinx/Vivado/2021.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 109 MB (+111488kb) [00:00:21]
+// [Engine Memory]: 1,285 MB (+1195911kb) [00:00:21]
+// WARNING: HEventQueue.dispatchEvent() is taking  5977 ms.
+// [GUI Memory]: 123 MB (+9110kb) [00:00:26]
+// Tcl Message: open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:14 . Memory (MB): peak = 1552.641 ; gain = 0.000 
+// Project name: project_1; location: D:/Nijssen_Cederic/download/PMODI2S2/project_1; part: xc7z007sclg225-1
+dismissDialog("Open Project"); // bz
+// a (cs): Critical Messages: addNotify
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+// [GUI Memory]: 142 MB (+13657kb) [00:00:33]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // o
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bz (cs):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {D:/Nijssen_Cederic/download/PMODI2S2/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd} 
+// Tcl Message: Reading block design file <D:/Nijssen_Cederic/download/PMODI2S2/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding component instance block -- xilinx.com:module_ref:i2s_transceiver:1.0 - i2s_transceiver_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0 Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0 Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1 Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_2 Adding component instance block -- xilinx.com:module_ref:vhdlnoclk:1.0 - vhdlnoclk_0 Successfully read diagram <design_1> from block design file <D:/Nijssen_Cederic/download/PMODI2S2/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HEventQueue.dispatchEvent() is taking  2693 ms.
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 13 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1552.641 ; gain = 0.000 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,285 MB. GUI used memory: 93 MB. Current time: 1/3/22, 11:21:43 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,285 MB. GUI used memory: 92 MB. Current time: 1/3/22, 11:22:13 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,285 MB. GUI used memory: 92 MB. Current time: 1/3/22, 11:22:43 AM CET
+// Elapsed time: 96 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+// HMemoryUtils.trashcanNow. Engine heap size: 1,285 MB. GUI used memory: 92 MB. Current time: 1/3/22, 11:23:13 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,285 MB. GUI used memory: 92 MB. Current time: 1/3/22, 11:24:13 AM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,285 MB. GUI used memory: 92 MB. Current time: 1/3/22, 11:24:43 AM CET

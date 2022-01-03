@@ -1,0 +1,147 @@
+11:13:40 **** Incremental Build of configuration Debug for project Led_matrix_V8 ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Xilinx/EOS/Project_flappy_screem/Vitis/NeopixelV10/export/NeopixelV10/sw/NeopixelV10/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:33: warning: missing braces around initializer [-Wmissing-braces]
+   80 |     unsigned int frame1[8][8] = {
+      |                                 ^
+   81 |        0x000030, 0x300000, 0x300000, 0x000030, 0x300000, 0x300000, 0x000030, 0x000030,
+      |        {                                                                             }
+   82 |        0x300000, 0x300000, 0x300000, 0x300000, 0x300000, 0x300000, 0x300000, 0x000030,
+      |        {                                                                             }
+   83 |        0x300000, 0x300000, 0x300000, 0x300000, 0x300000, 0x300000, 0x300000, 0x000030,
+      |        {                                                                             }
+   84 |        0x300000, 0x300000, 0x300000, 0x300000, 0x300000, 0x300000, 0x300000, 0x000030,
+      |        {                                                                             }
+   85 |        0x000030, 0x300000, 0x300000, 0x300000, 0x300000, 0x300000, 0x000030, 0x000030,
+      |        {                                                                             }
+   86 |        0x000030, 0x000030, 0x300000, 0x300000, 0x300000, 0x000030, 0x000030, 0x000030,
+      |        {                                                                             }
+   87 |        0x000030, 0x000030, 0x000030, 0x300000, 0x000030, 0x000030, 0x000030, 0x000030,
+      |        {                                                                             }
+   88 |        0x000030, 0x000030, 0x000030, 0x000030, 0x000030, 0x000030, 0x000030, 0x000030
+      |        {
+   89 |     };
+      |     }
+../src/helloworld.c:91:33: warning: missing braces around initializer [-Wmissing-braces]
+   91 |     unsigned int frame2[8][8] = {
+      |                                 ^
+   92 |     0x000030, 0x003000, 0x003000, 0x000030, 0x003000, 0x003000, 0x000030, 0x000030,
+      |     {                                                                             }
+   93 |     0x003000, 0x003000, 0x003000, 0x003000, 0x003000, 0x003000, 0x003000, 0x000030,
+      |     {                                                                             }
+   94 |     0x003000, 0x003000, 0x003000, 0x003000, 0x003000, 0x003000, 0x003000, 0x000030,
+      |     {                                                                             }
+   95 |     0x003000, 0x003000, 0x003000, 0x003000, 0x003000, 0x003000, 0x003000, 0x000030,
+      |     {                                                                             }
+   96 |     0x000030, 0x003000, 0x003000, 0x003000, 0x003000, 0x003000, 0x000030, 0x000030,
+      |     {                                                                             }
+   97 |     0x000030, 0x000030, 0x003000, 0x003000, 0x003000, 0x000030, 0x000030, 0x000030,
+      |     {                                                                             }
+   98 |     0x000030, 0x000030, 0x000030, 0x003000, 0x000030, 0x000030, 0x000030, 0x000030,
+      |     {                                                                             }
+   99 |     0x000030, 0x000030, 0x000030, 0x000030, 0x000030, 0x000030, 0x000030, 0x000030
+      |     {
+  100 |  };
+      |  }
+../src/helloworld.c:107:17: warning: passing argument 1 of 'writeFrame' from incompatible pointer type [-Wincompatible-pointer-types]
+  107 |      writeFrame(frame1, 0);
+      |                 ^~~~~~
+      |                 |
+      |                 unsigned int (*)[8]
+../src/helloworld.c:66:37: note: expected 'const unsigned int * (*)[8]' but argument is of type 'unsigned int (*)[8]'
+   66 | void writeFrame(const unsigned int *frame[8][8],const char bufnum);
+      |                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/helloworld.c:108:19: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  108 |      printf("%d\t%d\n", tmp, NEOPIXELDRIVER_mReadReg(NeoPixel_BASEADR, NeoPixel_reg1));
+      |                  ~^
+      |                   |
+      |                   int
+      |                  %ld
+../src/helloworld.c:109:15: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  109 |      printf("%d\t%d\n", NEOPIXELDRIVER_mReadReg(NeoPixel_BASEADR, NeoPixel_reg2), NEOPIXELDRIVER_mReadReg(NeoPixel_BASEADR, NeoPixel_reg3));
+      |              ~^
+      |               |
+      |               int
+      |              %ld
+../src/helloworld.c:109:19: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  109 |      printf("%d\t%d\n", NEOPIXELDRIVER_mReadReg(NeoPixel_BASEADR, NeoPixel_reg2), NEOPIXELDRIVER_mReadReg(NeoPixel_BASEADR, NeoPixel_reg3));
+      |                  ~^
+      |                   |
+      |                   int
+      |                  %ld
+../src/helloworld.c:110:3: warning: implicit declaration of function 'usleep_A9' [-Wimplicit-function-declaration]
+  110 |   usleep_A9(500000);
+      |   ^~~~~~~~~
+../src/helloworld.c:112:17: warning: passing argument 1 of 'writeFrame' from incompatible pointer type [-Wincompatible-pointer-types]
+  112 |      writeFrame(frame2, 1);
+      |                 ^~~~~~
+      |                 |
+      |                 unsigned int (*)[8]
+../src/helloworld.c:66:37: note: expected 'const unsigned int * (*)[8]' but argument is of type 'unsigned int (*)[8]'
+   66 | void writeFrame(const unsigned int *frame[8][8],const char bufnum);
+      |                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+../src/helloworld.c:113:19: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  113 |      printf("%d\t%d\n", tmp, NEOPIXELDRIVER_mReadReg(NeoPixel_BASEADR, NeoPixel_reg1));
+      |                  ~^
+      |                   |
+      |                   int
+      |                  %ld
+../src/helloworld.c:114:15: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  114 |      printf("%d\t%d\n", NEOPIXELDRIVER_mReadReg(NeoPixel_BASEADR, NeoPixel_reg2), NEOPIXELDRIVER_mReadReg(NeoPixel_BASEADR, NeoPixel_reg3));
+      |              ~^
+      |               |
+      |               int
+      |              %ld
+../src/helloworld.c:114:19: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+  114 |      printf("%d\t%d\n", NEOPIXELDRIVER_mReadReg(NeoPixel_BASEADR, NeoPixel_reg2), NEOPIXELDRIVER_mReadReg(NeoPixel_BASEADR, NeoPixel_reg3));
+      |                  ~^
+      |                   |
+      |                   int
+      |                  %ld
+../src/helloworld.c:75:9: warning: unused variable 'numberOfLeds' [-Wunused-variable]
+   75 |     int numberOfLeds = LedNum << 16;
+      |         ^~~~~~~~~~~~
+../src/helloworld.c:74:9: warning: unused variable 'ram_add' [-Wunused-variable]
+   74 |     int ram_add = 0x04;
+      |         ^~~~~~~
+../src/helloworld.c:72:9: warning: unused variable 'Status' [-Wunused-variable]
+   72 |     int Status;
+      |         ^~~~~~
+In file included from C:/Xilinx/EOS/Project_flappy_screem/Vitis/NeopixelV10/export/NeopixelV10/sw/NeopixelV10/standalone_domain/bspinclude/include/xbram.h:115,
+                 from ../src/helloworld.c:52:
+../src/helloworld.c: In function 'writeFrame':
+../src/helloworld.c:141:49: warning: array subscript has type 'char' [-Wchar-subscripts]
+  141 |    XBram_WriteReg(BRAM_DEVICE_ID, ram_add, frame[i][j]);
+      |                                                 ^
+C:/Xilinx/EOS/Project_flappy_screem/Vitis/NeopixelV10/export/NeopixelV10/sw/NeopixelV10/standalone_domain/bspinclude/include/xbram_hw.h:353:49: note: in definition of macro 'XBram_WriteReg'
+  353 |  XBram_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+      |                                                 ^~~~
+../src/helloworld.c:141:52: warning: array subscript has type 'char' [-Wchar-subscripts]
+  141 |    XBram_WriteReg(BRAM_DEVICE_ID, ram_add, frame[i][j]);
+      |                                                    ^
+C:/Xilinx/EOS/Project_flappy_screem/Vitis/NeopixelV10/export/NeopixelV10/sw/NeopixelV10/standalone_domain/bspinclude/include/xbram_hw.h:353:49: note: in definition of macro 'XBram_WriteReg'
+  353 |  XBram_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+      |                                                 ^~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Led_matrix_V8.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Xilinx/EOS/Project_flappy_screem/Vitis/NeopixelV10/export/NeopixelV10/sw/NeopixelV10/standalone_domain/bsplib/lib -o "Led_matrix_V8.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Led_matrix_V8.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Led_matrix_V8.elf  |tee "Led_matrix_V8.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  52115	   2548	  22704	  77367	  12e37	Led_matrix_V8.elf
+'Finished building: Led_matrix_V8.elf.size'
+' '
+
+11:13:41 Build Finished (took 886ms)
+

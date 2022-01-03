@@ -1,0 +1,498 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x883BE7B2110F4C2B",
+      "device": "xc7z007sclg225-1",
+      "gen_directory": "../../../../project_1.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xlconcat_0": "",
+      "xlconcat_1": "",
+      "xlconcat_2": "",
+      "axi_bram_ctrl_0_bram": "",
+      "vio_0": "",
+      "clk_wiz_0": "",
+      "vhdlnoclk_0": "",
+      "i2s_transceiver_0": ""
+    },
+    "ports": {
+      "reset_n_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "sd_rx_0": {
+        "direction": "I"
+      },
+      "mclk_0": {
+        "direction": "O",
+        "left": "1",
+        "right": "0",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "11289009:11289009",
+            "value_src": "ip_prop"
+          },
+          "PHASE": {
+            "value": "0.0:0.0",
+            "value_src": "ip_prop"
+          },
+          "PortType": {
+            "value": "clk",
+            "value_src": "ip_prop"
+          },
+          "PortWidth": {
+            "value": "2",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "sd_tx_0": {
+        "direction": "O"
+      },
+      "sclk_0": {
+        "direction": "O",
+        "left": "1",
+        "right": "0",
+        "parameters": {
+          "PortWidth": {
+            "value": "2",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "ws_0": {
+        "direction": "O",
+        "left": "1",
+        "right": "0",
+        "parameters": {
+          "PortWidth": {
+            "value": "2",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "Green": {
+        "direction": "O"
+      },
+      "Red": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "design_1_xlconcat_0_0",
+        "xci_path": "ip\\design_1_xlconcat_0_0\\design_1_xlconcat_0_0.xci",
+        "inst_hier_path": "xlconcat_0"
+      },
+      "xlconcat_1": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "design_1_xlconcat_0_1",
+        "xci_path": "ip\\design_1_xlconcat_0_1\\design_1_xlconcat_0_1.xci",
+        "inst_hier_path": "xlconcat_1"
+      },
+      "xlconcat_2": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "design_1_xlconcat_0_2",
+        "xci_path": "ip\\design_1_xlconcat_0_2\\design_1_xlconcat_0_2.xci",
+        "inst_hier_path": "xlconcat_2"
+      },
+      "axi_bram_ctrl_0_bram": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "design_1_axi_bram_ctrl_0_bram_0",
+        "xci_path": "ip\\design_1_axi_bram_ctrl_0_bram_0\\design_1_axi_bram_ctrl_0_bram_0.xci",
+        "inst_hier_path": "axi_bram_ctrl_0_bram",
+        "parameters": {
+          "Enable_B": {
+            "value": "Use_ENB_Pin"
+          },
+          "Memory_Type": {
+            "value": "True_Dual_Port_RAM"
+          },
+          "Port_A_Write_Rate": {
+            "value": "50"
+          },
+          "Port_B_Clock": {
+            "value": "100"
+          },
+          "Port_B_Enable_Rate": {
+            "value": "100"
+          },
+          "Port_B_Write_Rate": {
+            "value": "50"
+          },
+          "Use_RSTB_Pin": {
+            "value": "true"
+          }
+        }
+      },
+      "vio_0": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "xci_name": "design_1_vio_0_0",
+        "xci_path": "ip\\design_1_vio_0_0\\design_1_vio_0_0.xci",
+        "inst_hier_path": "vio_0",
+        "parameters": {
+          "C_NUM_PROBE_IN": {
+            "value": "9"
+          },
+          "C_NUM_PROBE_OUT": {
+            "value": "0"
+          }
+        }
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_1_clk_wiz_0_0",
+        "xci_path": "ip\\design_1_clk_wiz_0_0\\design_1_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "parameters": {
+          "CLKIN1_JITTER_PS": {
+            "value": "153.84"
+          },
+          "CLKOUT1_JITTER": {
+            "value": "232.305"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "113.204"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "11.289"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "16.000"
+          },
+          "MMCM_CLKIN1_PERIOD": {
+            "value": "15.385"
+          },
+          "MMCM_CLKIN2_PERIOD": {
+            "value": "10.0"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "92.125"
+          },
+          "MMCM_DIVCLK_DIVIDE": {
+            "value": "1"
+          },
+          "PRIM_IN_FREQ": {
+            "value": "65"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      },
+      "vhdlnoclk_0": {
+        "vlnv": "xilinx.com:module_ref:vhdlnoclk:1.0",
+        "xci_name": "design_1_vhdlnoclk_0_0",
+        "xci_path": "ip\\design_1_vhdlnoclk_0_0\\design_1_vhdlnoclk_0_0.xci",
+        "inst_hier_path": "vhdlnoclk_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "vhdlnoclk",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk65MHz": {
+            "direction": "O"
+          }
+        }
+      },
+      "i2s_transceiver_0": {
+        "vlnv": "xilinx.com:module_ref:i2s_transceiver:1.0",
+        "xci_name": "design_1_i2s_transceiver_0_0",
+        "xci_path": "ip\\design_1_i2s_transceiver_0_0\\design_1_i2s_transceiver_0_0.xci",
+        "inst_hier_path": "i2s_transceiver_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "i2s_transceiver",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "reset_n": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "mclk": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "11289009",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "sclk": {
+            "direction": "O"
+          },
+          "ws": {
+            "direction": "O"
+          },
+          "sd_tx": {
+            "direction": "O"
+          },
+          "sd_rx": {
+            "direction": "I"
+          },
+          "addra": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "dina": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "ena": {
+            "direction": "O"
+          },
+          "rsta": {
+            "direction": "O"
+          },
+          "wea": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "douta": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "addrb": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "dinb": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          },
+          "enb": {
+            "direction": "O"
+          },
+          "rstb": {
+            "direction": "O"
+          },
+          "web": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "doutb": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "control": {
+            "direction": "O"
+          },
+          "dinl_tmp": {
+            "direction": "O",
+            "left": "23",
+            "right": "0"
+          },
+          "dinr_tmp": {
+            "direction": "O",
+            "left": "23",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "axi_bram_ctrl_0_bram_douta": {
+        "ports": [
+          "axi_bram_ctrl_0_bram/douta",
+          "i2s_transceiver_0/douta"
+        ]
+      },
+      "axi_bram_ctrl_0_bram_doutb": {
+        "ports": [
+          "axi_bram_ctrl_0_bram/doutb",
+          "vio_0/probe_in5",
+          "i2s_transceiver_0/doutb"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "xlconcat_0/In0",
+          "xlconcat_0/In1",
+          "axi_bram_ctrl_0_bram/clkb",
+          "axi_bram_ctrl_0_bram/clka",
+          "vio_0/clk",
+          "i2s_transceiver_0/mclk"
+        ]
+      },
+      "i2s_transceiver_0_addra": {
+        "ports": [
+          "i2s_transceiver_0/addra",
+          "axi_bram_ctrl_0_bram/addra",
+          "vio_0/probe_in2"
+        ]
+      },
+      "i2s_transceiver_0_addrb": {
+        "ports": [
+          "i2s_transceiver_0/addrb",
+          "axi_bram_ctrl_0_bram/addrb",
+          "vio_0/probe_in4"
+        ]
+      },
+      "i2s_transceiver_0_control": {
+        "ports": [
+          "i2s_transceiver_0/control",
+          "vio_0/probe_in6"
+        ]
+      },
+      "i2s_transceiver_0_dina": {
+        "ports": [
+          "i2s_transceiver_0/dina",
+          "axi_bram_ctrl_0_bram/dina",
+          "vio_0/probe_in3"
+        ]
+      },
+      "i2s_transceiver_0_dinb": {
+        "ports": [
+          "i2s_transceiver_0/dinb",
+          "axi_bram_ctrl_0_bram/dinb"
+        ]
+      },
+      "i2s_transceiver_0_dinl_tmp": {
+        "ports": [
+          "i2s_transceiver_0/dinl_tmp",
+          "vio_0/probe_in7"
+        ]
+      },
+      "i2s_transceiver_0_dinr_tmp": {
+        "ports": [
+          "i2s_transceiver_0/dinr_tmp",
+          "vio_0/probe_in8"
+        ]
+      },
+      "i2s_transceiver_0_ena": {
+        "ports": [
+          "i2s_transceiver_0/ena",
+          "axi_bram_ctrl_0_bram/ena"
+        ]
+      },
+      "i2s_transceiver_0_enb": {
+        "ports": [
+          "i2s_transceiver_0/enb",
+          "axi_bram_ctrl_0_bram/enb"
+        ]
+      },
+      "i2s_transceiver_0_rsta": {
+        "ports": [
+          "i2s_transceiver_0/rsta",
+          "axi_bram_ctrl_0_bram/rsta"
+        ]
+      },
+      "i2s_transceiver_0_rstb": {
+        "ports": [
+          "i2s_transceiver_0/rstb",
+          "axi_bram_ctrl_0_bram/rstb"
+        ]
+      },
+      "i2s_transceiver_0_sclk": {
+        "ports": [
+          "i2s_transceiver_0/sclk",
+          "xlconcat_2/In0",
+          "xlconcat_2/In1"
+        ]
+      },
+      "i2s_transceiver_0_sd_tx": {
+        "ports": [
+          "i2s_transceiver_0/sd_tx",
+          "sd_tx_0",
+          "Red",
+          "vio_0/probe_in1"
+        ]
+      },
+      "i2s_transceiver_0_wea": {
+        "ports": [
+          "i2s_transceiver_0/wea",
+          "axi_bram_ctrl_0_bram/wea"
+        ]
+      },
+      "i2s_transceiver_0_web": {
+        "ports": [
+          "i2s_transceiver_0/web",
+          "axi_bram_ctrl_0_bram/web"
+        ]
+      },
+      "i2s_transceiver_0_ws": {
+        "ports": [
+          "i2s_transceiver_0/ws",
+          "xlconcat_1/In0",
+          "xlconcat_1/In1"
+        ]
+      },
+      "reset_n_0_1": {
+        "ports": [
+          "reset_n_0",
+          "i2s_transceiver_0/reset_n"
+        ]
+      },
+      "sd_rx_0_1": {
+        "ports": [
+          "sd_rx_0",
+          "Green",
+          "vio_0/probe_in0",
+          "i2s_transceiver_0/sd_rx"
+        ]
+      },
+      "vhdlnoclk_0_clk65MHz": {
+        "ports": [
+          "vhdlnoclk_0/clk65MHz",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "mclk_0"
+        ]
+      },
+      "xlconcat_1_dout": {
+        "ports": [
+          "xlconcat_1/dout",
+          "ws_0"
+        ]
+      },
+      "xlconcat_2_dout": {
+        "ports": [
+          "xlconcat_2/dout",
+          "sclk_0"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Jan  3 11:20:26 2022
+# Process ID: 24256
+# Current directory: D:/Nijssen_Cederic/download/PMODI2S2/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26884 D:\Nijssen_Cederic\download\PMODI2S2\project_1\project_1.xpr
+# Log file: D:/Nijssen_Cederic/download/PMODI2S2/project_1/vivado.log
+# Journal file: D:/Nijssen_Cederic/download/PMODI2S2/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Nijssen_Cederic/download/PMODI2S2/project_1/project_1.xpr
+open_bd_design {D:/Nijssen_Cederic/download/PMODI2S2/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}

@@ -1,0 +1,343 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Dec 22 10:15:35 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Mon Dec 20 11:36:49 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0 (Rev. 17)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Mon Dec 20 11:20:20 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Mon Dec 20 11:17:49 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Mon Dec 20 11:10:08 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Mon Dec 20 11:05:58 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Mon Dec 20 10:44:27 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu Dec 16 12:22:06 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu Dec 16 11:56:24 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 9) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu Dec 16 09:47:28 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 8) to (Rev. 9)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_NeopixelDriver_0_1'. These changes may impact your design.
+
+
+-Upgrade has added port 'enLed'
+
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu Dec 16 09:32:22 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu Dec  9 11:06:47 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu Dec  9 11:02:31 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Dec  1 12:07:05 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_NeopixelDriver_0_1'.
+
+
+-Upgrade has removed interface 'CLK'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_NeopixelDriver_0_1'. These changes may impact your design.
+
+
+-Upgrade has removed port 'CLK'
+
+-Upgrade has added port 'InClock'
+
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Thu Nov 18 10:31:33 2021
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_NeopixelDriver_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_NeopixelDriver_0_1 (xilinx.com:user:NeopixelDriver:1.0) from (Rev. 3) to (Rev. 4)
+

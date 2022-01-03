@@ -1,0 +1,16 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Mon Jan  3 11:27:08 2022
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_clk_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_clk_wiz_0_0 (xilinx.com:ip:clk_wiz:6.0 (Rev. 8)) to Vivado generation flows.
+
