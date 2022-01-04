@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Led_matrix_V8" location="C:/Xilinx/EOS/Project_flappy_screem/Vitis/Led_matrix_V8" platform="C:/Xilinx/EOS/Project_flappy_screem/Vitis/NeopixelV10/export/NeopixelV10/NeopixelV10.xpfm" platformUID="xilinx:minized::0.0(custom)" systemProject="Led_matrix_V8_system" sysConfig="NeopixelV10" runtime="cpp" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" dimmRepoPath="" mssSignature="3dcfb2dff45cb8da9f0e97db4098edda">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.2063474554">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1211520369" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

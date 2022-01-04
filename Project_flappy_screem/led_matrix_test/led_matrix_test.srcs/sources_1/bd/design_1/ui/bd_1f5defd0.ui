@@ -1,0 +1,49 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.891835",
+   "Default View_TopLeft":"471,-48",
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1310 -y 80 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1310 -y 110 -defaultsOSRD
+preplace port port-id_D_out_0 -pg 1 -lvl 5 -x 1310 -y 360 -defaultsOSRD
+preplace port port-id_LEDG -pg 1 -lvl 5 -x 1310 -y 390 -defaultsOSRD
+preplace port port-id_LEDR -pg 1 -lvl 5 -x 1310 -y 420 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -x 890 -y 470 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 220 -y 160 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 4 -x 1190 -y 270 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 2 -x 580 -y 220 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 220 -y 430 -defaultsOSRD
+preplace inst NeopixelDriver_0 -pg 1 -lvl 3 -x 890 -y 270 -defaultsOSRD
+preplace netloc LedMatrixCode_0_D_out 1 3 2 1060J 130 1290J
+preplace netloc NeopixelDriver_0_addrb 1 3 1 N 230
+preplace netloc NeopixelDriver_0_dinb 1 3 1 1080 250n
+preplace netloc NeopixelDriver_0_enLed 1 3 2 1030J 420 NJ
+preplace netloc NeopixelDriver_0_enb 1 3 1 1060 270n
+preplace netloc NeopixelDriver_0_rstb 1 3 1 1050 290n
+preplace netloc NeopixelDriver_0_web 1 3 1 1040 310n
+preplace netloc axi_bram_ctrl_0_bram_doutb 1 2 2 750 390 1090J
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 10 320 430 320 740
+preplace netloc processing_system7_0_FCLK_CLK1 1 1 3 420J 140 750 150 1090J
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 20 330 420
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 2 440 310 730
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 3 1 1070 190n
+preplace netloc axi_smc_M00_AXI 1 2 1 720 210n
+preplace netloc axi_smc_M01_AXI 1 2 1 N 230
+preplace netloc processing_system7_0_DDR 1 1 4 NJ 80 NJ 80 NJ 80 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 4 420J 110 NJ 110 NJ 110 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 N 200
+levelinfo -pg 1 -10 220 580 890 1190 1310
+pagesize -pg 1 -db -bbox -sgen -10 0 1430 550
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_board_cnt":"4",
+   "da_bram_cntlr_cnt":"2",
+   "da_clkrst_cnt":"5",
+   "da_ps7_cnt":"1"
+}
