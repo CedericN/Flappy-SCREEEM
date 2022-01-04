@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.runs/impl_1/design_1_wrapper.tcl"
+  variable script "C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.runs/impl_1/design_1_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -123,29 +123,30 @@ set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 3
-  set_param xicom.use_bs_reader 1
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7z007sclg225-1
+  set_property board_part_repo_paths {C:/Users/Nijss/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store} [current_project]
+  set_property board_part em.avnet.com:minized:part0:1.2 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir {C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.cache/wt} [current_project]
-  set_property parent.project_path {C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.xpr} [current_project]
-  set_property ip_repo_paths {{C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/ip_repo/Pmod_I2S2_1.0}} [current_project]
+  set_property webtalk.parent_dir C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.cache/wt [current_project]
+  set_property parent.project_path C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.xpr [current_project]
+  set_property ip_repo_paths c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo [current_project]
   update_ip_catalog
-  set_property ip_output_repo {{C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.cache/ip}} [current_project]
+  set_property ip_output_repo C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet {{C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.runs/synth_1/design_1_wrapper.dcp}}
+  add_files -quiet C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.runs/synth_1/design_1_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files {{C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}}
+  add_files C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd
   set_param project.isImplRun false
 OPTRACE "read constraints: implementation" START { }
-  read_xdc {{C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.srcs/constrs_2/new/pmodi2s.xdc}}
+  read_xdc C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.srcs/constrs_2/new/pmodi2s.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }

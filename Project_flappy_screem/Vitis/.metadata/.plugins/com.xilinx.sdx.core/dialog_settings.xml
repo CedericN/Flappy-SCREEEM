@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="sdx.custom.platform.repository.locations" value="C:\Xilinx\EOS\Project_flappy_screem\Vitis\NeoPixelV10\export\NeoPixelV10"/>
+	<item key="sdx.custom.platform.repository.locations" value="C:\Xilinx\EOS\Project_flappy_screem\Vitis\NeoPixelV10\export\NeoPixelV10;C:\Xilinx\EOS\project_flappy_screem\Flappy_SCREEEM\Project_flappy_screem\Vitis\NeoPixelV10;C:\Xilinx\EOS\project_flappy_screem\Flappy_SCREEEM\Project_flappy_screem\Vitis\Pmod_I2S2_V1\export\Pmod_I2S2_V1"/>
 </section>

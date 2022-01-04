@@ -1,11 +1,11 @@
 // Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-// Date        : Mon Jan  3 15:18:52 2022
+// Date        : Tue Jan  4 16:03:05 2022
 // Host        : HP-CE running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub -rename_top design_1_rst_ps7_0_50M_0 -prefix
-//               design_1_rst_ps7_0_50M_0_ design_1_proc_sys_reset_0_0_stub.v
-// Design      : design_1_proc_sys_reset_0_0
+// Command     : write_verilog -force -mode synth_stub
+//               c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_stub.v
+// Design      : design_1_rst_ps7_0_50M_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z007sclg225-1
 // --------------------------------------------------------------------------------

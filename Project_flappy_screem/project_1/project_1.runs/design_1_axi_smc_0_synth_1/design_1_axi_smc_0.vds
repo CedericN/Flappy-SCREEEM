@@ -2,20 +2,19 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Tue Jan  4 13:45:48 2022
-# Process ID: 23908
-# Current directory: C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1
+# Start of session at: Tue Jan  4 17:28:49 2022
+# Process ID: 42700
+# Current directory: C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1
 # Command line: vivado.exe -log design_1_axi_smc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_smc_0.tcl
-# Log file: C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1/design_1_axi_smc_0.vds
-# Journal file: C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1\vivado.jou
+# Log file: C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1/design_1_axi_smc_0.vds
+# Journal file: C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1\vivado.jou
 #-----------------------------------------------------------
 source design_1_axi_smc_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1205.016 ; gain = 0.000
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/ip_repo/Pmod_I2S2_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programmas/xilinx/Vivado/2021.1/data/ip'.
 WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
-Current IP cache path is c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.cache/ip 
+Current IP cache path is c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.cache/ip 
 Command: synth_design -top design_1_axi_smc_0 -part xc7z007sclg225-1 -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
@@ -23,18 +22,18 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007
 INFO: [Device 21-403] Loading part xc7z007sclg225-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 11196
+INFO: [Synth 8-7075] Helper process launched with PID 18080
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1205.016 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1220.727 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_smc_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/synth/design_1_axi_smc_0.v:57]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:10]
-INFO: [Synth 8-6157] synthesizing module 'clk_map_imp_5Y9LOC' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1762]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_one_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_0/synth/bd_afc3_one_0.v:57]
-INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (1#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_one_0' (2#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_0/synth/bd_afc3_one_0.v:57]
-INFO: [Synth 8-638] synthesizing module 'bd_afc3_psr_aclk_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/synth/bd_afc3_psr_aclk_0.vhd:74]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_smc_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/synth/design_1_axi_smc_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:10]
+INFO: [Synth 8-6157] synthesizing module 'clk_map_imp_5Y9LOC' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1762]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_one_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_0/synth/bd_afc3_one_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_7_xlconstant' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_7_xlconstant' (1#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/fcfc/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_one_0' (2#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_0/synth/bd_afc3_one_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'bd_afc3_psr_aclk_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/synth/bd_afc3_psr_aclk_0.vhd:74]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
 	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
@@ -44,57 +43,57 @@ INFO: [Synth 8-638] synthesizing module 'bd_afc3_psr_aclk_0' [c:/Xilinx/EOS/proj
 	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
 	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
 	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
-INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/synth/bd_afc3_psr_aclk_0.vhd:129]
-INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/synth/bd_afc3_psr_aclk_0.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
 	Parameter INIT bound to: 1'b1 
-INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1392]
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1392]
 	Parameter INIT bound to: 1'b1 
-INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1408]
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1408]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1434]
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1434]
 	Parameter INIT bound to: 1'b1 
-INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1457]
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1457]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1481]
-INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
-INFO: [Synth 8-3491] module 'SRL16' declared at 'D:/Programmas/xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:100945' bound to instance 'POR_SRL_I' of component 'SRL16' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1481]
+INFO: [Synth 8-638] synthesizing module 'lpf' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-3491] module 'SRL16' declared at 'D:/Programmas/xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:100945' bound to instance 'POR_SRL_I' of component 'SRL16' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
 INFO: [Synth 8-6157] synthesizing module 'SRL16' [D:/Programmas/xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:100945]
 INFO: [Synth 8-6155] done synthesizing module 'SRL16' (3#1) [D:/Programmas/xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:100945]
-INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
 	Parameter INIT bound to: 1'b0 
-INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
-INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (4#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
-INFO: [Synth 8-256] done synthesizing module 'lpf' (5#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
-INFO: [Synth 8-638] synthesizing module 'sequence_psr' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
-INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
-INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (6#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
-INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (7#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
-INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (8#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
-INFO: [Synth 8-256] done synthesizing module 'bd_afc3_psr_aclk_0' (9#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/synth/bd_afc3_psr_aclk_0.vhd:74]
-WARNING: [Synth 8-7071] port 'mb_reset' of module 'bd_afc3_psr_aclk_0' is unconnected for instance 'psr_aclk' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1809]
-WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_afc3_psr_aclk_0' is unconnected for instance 'psr_aclk' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1809]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'bd_afc3_psr_aclk_0' is unconnected for instance 'psr_aclk' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1809]
-WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'bd_afc3_psr_aclk_0' is unconnected for instance 'psr_aclk' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1809]
-WARNING: [Synth 8-7023] instance 'psr_aclk' of module 'bd_afc3_psr_aclk_0' has 10 connections declared, but only 6 given [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1809]
-INFO: [Synth 8-6155] done synthesizing module 'clk_map_imp_5Y9LOC' (10#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1762]
-INFO: [Synth 8-6157] synthesizing module 'm00_exit_pipeline_imp_1TZX5BB' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1818]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00e_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_22/synth/bd_afc3_m00e_0.sv:58]
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (4#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (5#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (6#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (7#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (8#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'bd_afc3_psr_aclk_0' (9#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/synth/bd_afc3_psr_aclk_0.vhd:74]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'bd_afc3_psr_aclk_0' is unconnected for instance 'psr_aclk' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1809]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'bd_afc3_psr_aclk_0' is unconnected for instance 'psr_aclk' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1809]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'bd_afc3_psr_aclk_0' is unconnected for instance 'psr_aclk' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1809]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'bd_afc3_psr_aclk_0' is unconnected for instance 'psr_aclk' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1809]
+WARNING: [Synth 8-7023] instance 'psr_aclk' of module 'bd_afc3_psr_aclk_0' has 10 connections declared, but only 6 given [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1809]
+INFO: [Synth 8-6155] done synthesizing module 'clk_map_imp_5Y9LOC' (10#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1762]
+INFO: [Synth 8-6157] synthesizing module 'm00_exit_pipeline_imp_1TZX5BB' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1818]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00e_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_22/synth/bd_afc3_m00e_0.sv:58]
 INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_async_rst' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_async_rst' (11#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1175]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00e_0' (20#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_22/synth/bd_afc3_m00e_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'm00_exit_pipeline_imp_1TZX5BB' (21#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1818]
-INFO: [Synth 8-6157] synthesizing module 'm00_nodes_imp_1GOYQYZ' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2189]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00arn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_17/synth/bd_afc3_m00arn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00e_0' (20#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_22/synth/bd_afc3_m00e_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'm00_exit_pipeline_imp_1TZX5BB' (21#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:1818]
+INFO: [Synth 8-6157] synthesizing module 'm00_nodes_imp_1GOYQYZ' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2189]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00arn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_17/synth/bd_afc3_m00arn_0.sv:58]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (25#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
@@ -103,10 +102,10 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized0' [D:
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (30#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized0' (30#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00arn_0' (36#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_17/synth/bd_afc3_m00arn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00awn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_19/synth/bd_afc3_m00awn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00awn_0' (37#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_19/synth/bd_afc3_m00awn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00bn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_21/synth/bd_afc3_m00bn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00arn_0' (36#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_17/synth/bd_afc3_m00arn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00awn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_19/synth/bd_afc3_m00awn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00awn_0' (37#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_19/synth/bd_afc3_m00awn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00bn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_21/synth/bd_afc3_m00bn_0.sv:58]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized1' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized1' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized1' (37#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
@@ -115,70 +114,70 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized2' [D:
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized2' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized2' (37#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized2' (37#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00bn_0' (38#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_21/synth/bd_afc3_m00bn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00rn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_18/synth/bd_afc3_m00rn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00bn_0' (38#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_21/synth/bd_afc3_m00bn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00rn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_18/synth/bd_afc3_m00rn_0.sv:58]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized3' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized3' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized3' (38#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized3' (38#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00rn_0' (39#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_18/synth/bd_afc3_m00rn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00wn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_20/synth/bd_afc3_m00wn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00rn_0' (39#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_18/synth/bd_afc3_m00rn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00wn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_20/synth/bd_afc3_m00wn_0.sv:58]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized4' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized4' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized4' (39#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized4' (39#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00wn_0' (40#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_20/synth/bd_afc3_m00wn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'm00_nodes_imp_1GOYQYZ' (41#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2189]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00s2a_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_16/synth/bd_afc3_m00s2a_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00s2a_0' (43#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_16/synth/bd_afc3_m00s2a_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'm01_exit_pipeline_imp_1XMPFJB' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2485]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01e_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_29/synth/bd_afc3_m01e_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01e_0' (44#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_29/synth/bd_afc3_m01e_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'm01_exit_pipeline_imp_1XMPFJB' (45#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2485]
-INFO: [Synth 8-6157] synthesizing module 'm01_nodes_imp_94N5OD' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2856]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01arn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_24/synth/bd_afc3_m01arn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01arn_0' (46#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_24/synth/bd_afc3_m01arn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01awn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_26/synth/bd_afc3_m01awn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01awn_0' (47#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_26/synth/bd_afc3_m01awn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01bn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_28/synth/bd_afc3_m01bn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01bn_0' (48#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_28/synth/bd_afc3_m01bn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01rn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_25/synth/bd_afc3_m01rn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01rn_0' (49#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_25/synth/bd_afc3_m01rn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01wn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_27/synth/bd_afc3_m01wn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01wn_0' (50#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_27/synth/bd_afc3_m01wn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'm01_nodes_imp_94N5OD' (51#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2856]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01s2a_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_23/synth/bd_afc3_m01s2a_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01s2a_0' (52#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_23/synth/bd_afc3_m01s2a_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'm02_exit_pipeline_imp_1I9A8BR' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3152]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02e_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_36/synth/bd_afc3_m02e_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02e_0' (54#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_36/synth/bd_afc3_m02e_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'm02_exit_pipeline_imp_1I9A8BR' (55#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3152]
-INFO: [Synth 8-6157] synthesizing module 'm02_nodes_imp_PO9IG6' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3453]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02arn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_31/synth/bd_afc3_m02arn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02arn_0' (56#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_31/synth/bd_afc3_m02arn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02awn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_33/synth/bd_afc3_m02awn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02awn_0' (57#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_33/synth/bd_afc3_m02awn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02bn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_35/synth/bd_afc3_m02bn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02bn_0' (58#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_35/synth/bd_afc3_m02bn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02rn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_32/synth/bd_afc3_m02rn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02rn_0' (59#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_32/synth/bd_afc3_m02rn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02wn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_34/synth/bd_afc3_m02wn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02wn_0' (60#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_34/synth/bd_afc3_m02wn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'm02_nodes_imp_PO9IG6' (61#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3453]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02s2a_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_30/synth/bd_afc3_m02s2a_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02s2a_0' (62#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_30/synth/bd_afc3_m02s2a_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_s00a2s_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_10/synth/bd_afc3_s00a2s_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_s00a2s_0' (64#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_10/synth/bd_afc3_s00a2s_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 's00_entry_pipeline_imp_USCCV8' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3749]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_s00mmu_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_7/synth/bd_afc3_s00mmu_0.sv:59]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_s00mmu_0' (69#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_7/synth/bd_afc3_s00mmu_0.sv:59]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_s00sic_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_9/synth/bd_afc3_s00sic_0.sv:59]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_s00sic_0' (75#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_9/synth/bd_afc3_s00sic_0.sv:59]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_s00tr_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_8/synth/bd_afc3_s00tr_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_s00tr_0' (78#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_8/synth/bd_afc3_s00tr_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 's00_entry_pipeline_imp_USCCV8' (79#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3749]
-INFO: [Synth 8-6157] synthesizing module 's00_nodes_imp_Y7M43I' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:4403]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_sarn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_11/synth/bd_afc3_sarn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00wn_0' (40#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_20/synth/bd_afc3_m00wn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'm00_nodes_imp_1GOYQYZ' (41#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2189]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m00s2a_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_16/synth/bd_afc3_m00s2a_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m00s2a_0' (43#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_16/synth/bd_afc3_m00s2a_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'm01_exit_pipeline_imp_1XMPFJB' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2485]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01e_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_29/synth/bd_afc3_m01e_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01e_0' (44#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_29/synth/bd_afc3_m01e_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'm01_exit_pipeline_imp_1XMPFJB' (45#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2485]
+INFO: [Synth 8-6157] synthesizing module 'm01_nodes_imp_94N5OD' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2856]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01arn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_24/synth/bd_afc3_m01arn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01arn_0' (46#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_24/synth/bd_afc3_m01arn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01awn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_26/synth/bd_afc3_m01awn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01awn_0' (47#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_26/synth/bd_afc3_m01awn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01bn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_28/synth/bd_afc3_m01bn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01bn_0' (48#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_28/synth/bd_afc3_m01bn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01rn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_25/synth/bd_afc3_m01rn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01rn_0' (49#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_25/synth/bd_afc3_m01rn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01wn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_27/synth/bd_afc3_m01wn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01wn_0' (50#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_27/synth/bd_afc3_m01wn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'm01_nodes_imp_94N5OD' (51#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:2856]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m01s2a_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_23/synth/bd_afc3_m01s2a_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m01s2a_0' (52#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_23/synth/bd_afc3_m01s2a_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'm02_exit_pipeline_imp_1I9A8BR' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3152]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02e_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_36/synth/bd_afc3_m02e_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02e_0' (54#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_36/synth/bd_afc3_m02e_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'm02_exit_pipeline_imp_1I9A8BR' (55#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3152]
+INFO: [Synth 8-6157] synthesizing module 'm02_nodes_imp_PO9IG6' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3453]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02arn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_31/synth/bd_afc3_m02arn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02arn_0' (56#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_31/synth/bd_afc3_m02arn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02awn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_33/synth/bd_afc3_m02awn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02awn_0' (57#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_33/synth/bd_afc3_m02awn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02bn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_35/synth/bd_afc3_m02bn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02bn_0' (58#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_35/synth/bd_afc3_m02bn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02rn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_32/synth/bd_afc3_m02rn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02rn_0' (59#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_32/synth/bd_afc3_m02rn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02wn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_34/synth/bd_afc3_m02wn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02wn_0' (60#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_34/synth/bd_afc3_m02wn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'm02_nodes_imp_PO9IG6' (61#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3453]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_m02s2a_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_30/synth/bd_afc3_m02s2a_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_m02s2a_0' (62#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_30/synth/bd_afc3_m02s2a_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_s00a2s_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_10/synth/bd_afc3_s00a2s_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_s00a2s_0' (64#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_10/synth/bd_afc3_s00a2s_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 's00_entry_pipeline_imp_USCCV8' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3749]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_s00mmu_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_7/synth/bd_afc3_s00mmu_0.sv:59]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_s00mmu_0' (69#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_7/synth/bd_afc3_s00mmu_0.sv:59]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_s00sic_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_9/synth/bd_afc3_s00sic_0.sv:59]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_s00sic_0' (75#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_9/synth/bd_afc3_s00sic_0.sv:59]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_s00tr_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_8/synth/bd_afc3_s00tr_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_s00tr_0' (78#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_8/synth/bd_afc3_s00tr_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 's00_entry_pipeline_imp_USCCV8' (79#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:3749]
+INFO: [Synth 8-6157] synthesizing module 's00_nodes_imp_Y7M43I' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:4403]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_sarn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_11/synth/bd_afc3_sarn_0.sv:58]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized5' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized5' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized5' (79#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
@@ -187,65 +186,65 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized6' [D:
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized6' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized6' (79#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized6' (79#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_sarn_0' (80#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_11/synth/bd_afc3_sarn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_sawn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_13/synth/bd_afc3_sawn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_sawn_0' (81#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_13/synth/bd_afc3_sawn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_sbn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_15/synth/bd_afc3_sbn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_sarn_0' (80#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_11/synth/bd_afc3_sarn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_sawn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_13/synth/bd_afc3_sawn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_sawn_0' (81#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_13/synth/bd_afc3_sawn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_sbn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_15/synth/bd_afc3_sbn_0.sv:58]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized7' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized7' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized7' (82#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized7' (82#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_sbn_0' (83#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_15/synth/bd_afc3_sbn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_srn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_12/synth/bd_afc3_srn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_srn_0' (84#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_12/synth/bd_afc3_srn_0.sv:58]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_swn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_14/synth/bd_afc3_swn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_sbn_0' (83#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_15/synth/bd_afc3_sbn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_srn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_12/synth/bd_afc3_srn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_srn_0' (84#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_12/synth/bd_afc3_srn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_swn_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_14/synth/bd_afc3_swn_0.sv:58]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized8' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized8' [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized8' (84#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized8' (84#1) [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8435]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_swn_0' (85#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_14/synth/bd_afc3_swn_0.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 's00_nodes_imp_Y7M43I' (86#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:4403]
-INFO: [Synth 8-6157] synthesizing module 'switchboards_imp_4N4PBE' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:4699]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_arsw_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_2/synth/bd_afc3_arsw_0.sv:57]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_arsw_0' (89#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_2/synth/bd_afc3_arsw_0.sv:57]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_awsw_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_4/synth/bd_afc3_awsw_0.sv:57]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_awsw_0' (90#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_4/synth/bd_afc3_awsw_0.sv:57]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_bsw_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_6/synth/bd_afc3_bsw_0.sv:57]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_bsw_0' (91#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_6/synth/bd_afc3_bsw_0.sv:57]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_rsw_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_3/synth/bd_afc3_rsw_0.sv:57]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_rsw_0' (92#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_3/synth/bd_afc3_rsw_0.sv:57]
-INFO: [Synth 8-6157] synthesizing module 'bd_afc3_wsw_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_5/synth/bd_afc3_wsw_0.sv:57]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_wsw_0' (93#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_5/synth/bd_afc3_wsw_0.sv:57]
-INFO: [Synth 8-6155] done synthesizing module 'switchboards_imp_4N4PBE' (94#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:4699]
-INFO: [Synth 8-6155] done synthesizing module 'bd_afc3' (95#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:10]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_smc_0' (96#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/synth/design_1_axi_smc_0.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_swn_0' (85#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_14/synth/bd_afc3_swn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 's00_nodes_imp_Y7M43I' (86#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:4403]
+INFO: [Synth 8-6157] synthesizing module 'switchboards_imp_4N4PBE' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:4699]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_arsw_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_2/synth/bd_afc3_arsw_0.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_arsw_0' (89#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_2/synth/bd_afc3_arsw_0.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_awsw_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_4/synth/bd_afc3_awsw_0.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_awsw_0' (90#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_4/synth/bd_afc3_awsw_0.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_bsw_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_6/synth/bd_afc3_bsw_0.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_bsw_0' (91#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_6/synth/bd_afc3_bsw_0.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_rsw_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_3/synth/bd_afc3_rsw_0.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_rsw_0' (92#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_3/synth/bd_afc3_rsw_0.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'bd_afc3_wsw_0' [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_5/synth/bd_afc3_wsw_0.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3_wsw_0' (93#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_5/synth/bd_afc3_wsw_0.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'switchboards_imp_4N4PBE' (94#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:4699]
+INFO: [Synth 8-6155] done synthesizing module 'bd_afc3' (95#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/synth/bd_afc3.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_smc_0' (96#1) [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/synth/design_1_axi_smc_0.v:57]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1286.516 ; gain = 81.500
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1392.434 ; gain = 171.707
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 1286.516 ; gain = 81.500
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1392.434 ; gain = 171.707
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 1286.516 ; gain = 81.500
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1392.434 ; gain = 171.707
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1581.238 ; gain = 7.094
+Netlist sorting complete. Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1685.773 ; gain = 7.410
 INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/ooc.xdc] for cell 'inst'
-Parsing XDC File [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
-Finished Parsing XDC File [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
-Parsing XDC File [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0.xdc] for cell 'inst/clk_map/psr_aclk/U0'
-Finished Parsing XDC File [c:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0.xdc] for cell 'inst/clk_map/psr_aclk/U0'
-Parsing XDC File [C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1/dont_touch.xdc]
+Parsing XDC File [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/ooc.xdc] for cell 'inst'
+Parsing XDC File [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0_board.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Parsing XDC File [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/bd_afc3_psr_aclk_0.xdc] for cell 'inst/clk_map/psr_aclk/U0'
+Parsing XDC File [C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1/dont_touch.xdc]
 WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {PRIMITIVE_SUBGROUP==LUTRAM || PRIMITIVE_SUBGROUP==dram || PRIMITIVE_SUBGROUP==uram || PRIMITIVE_SUBGROUP==BRAM}'. [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl:3]
 WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {PRIMITIVE_SUBGROUP==LUTRAM || PRIMITIVE_SUBGROUP==dram || PRIMITIVE_SUBGROUP==uram || PRIMITIVE_SUBGROUP==BRAM}'. [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl:3]
 WARNING: [Vivado 12-180] No cells matched 'get_cells -hier -filter {PRIMITIVE_SUBGROUP==LUTRAM || PRIMITIVE_SUBGROUP==dram || PRIMITIVE_SUBGROUP==uram || PRIMITIVE_SUBGROUP==BRAM}'. [D:/Programmas/xilinx/Vivado/2021.1/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl:3]
@@ -291,27 +290,27 @@ Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_axi
 INFO: [Project 1-1714] 86 XPM XDC files have been applied to the design.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 2118.012 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 2222.816 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 13 instances were transformed.
   FDR => FDRE: 12 instances
   SRL16 => SRL16E: 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2139.441 ; gain = 21.430
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2244.234 ; gain = 21.418
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:08 ; elapsed = 00:01:16 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished Constraint Validation : Time (s): cpu = 00:00:58 ; elapsed = 00:00:57 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z007sclg225-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:08 ; elapsed = 00:01:16 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:58 ; elapsed = 00:00:57 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  {C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1/dont_touch.xdc}, line 187).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1/dont_touch.xdc, line 187).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_nodes/m00_ar_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_nodes/m00_aw_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/m00_nodes/m00_b_node/inst/m_sc_xpm_cdc_async_rst_inst. (constraint file  auto generated constraint).
@@ -399,7 +398,7 @@ Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_aw_node/inst/\
 Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_b_node/inst/\gen_normal.inst_mi_handler /\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/s00_nodes/s00_w_node/inst/\gen_normal.inst_mi_handler /\gen_normal_area.inst_fifo_node_payld /\gen_xpm_memory_fifo.inst_fifo /\gen_mem_rep[0].inst_xpm_memory . (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:08 ; elapsed = 00:01:16 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:58 ; elapsed = 00:00:57 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
 INFO: [Synth 8-4490] FSM extraction disabled for register 'gen_pipelined.state_reg' through user attribute
@@ -453,7 +452,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'gen_axi.gen_write.write_cs
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'sc_transaction_regulator_v1_0_9_multithread'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:16 ; elapsed = 00:01:25 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:06 ; elapsed = 00:01:06 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -475,7 +474,7 @@ Detailed RTL Component Info :
 	   2 Input    2 Bit       Adders := 14    
 	   3 Input    1 Bit       Adders := 8     
 +---XORs : 
-	   2 Input      1 Bit         XORs := 320   
+	   2 Input      1 Bit         XORs := 322   
 +---Registers : 
 	             2178 Bit    Registers := 54    
 	              512 Bit    Registers := 1     
@@ -573,7 +572,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:26 ; elapsed = 00:02:37 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:19 ; elapsed = 00:02:20 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -616,13 +615,13 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:33 ; elapsed = 00:02:43 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:26 ; elapsed = 00:02:27 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:44 ; elapsed = 00:02:55 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished Timing Optimization : Time (s): cpu = 00:02:38 ; elapsed = 00:02:39 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -664,7 +663,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:52 ; elapsed = 00:03:04 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished Technology Mapping : Time (s): cpu = 00:02:47 ; elapsed = 00:02:49 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -682,37 +681,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:56 ; elapsed = 00:03:08 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished IO Insertion : Time (s): cpu = 00:02:50 ; elapsed = 00:02:53 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:56 ; elapsed = 00:03:08 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:50 ; elapsed = 00:02:53 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:58 ; elapsed = 00:03:09 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:52 ; elapsed = 00:02:54 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:58 ; elapsed = 00:03:09 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:52 ; elapsed = 00:02:54 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:58 ; elapsed = 00:03:10 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:53 ; elapsed = 00:02:55 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:58 ; elapsed = 00:03:10 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:53 ; elapsed = 00:02:55 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -746,50 +745,50 @@ Report Cell Usage:
 +------+---------+------+
 |1     |CARRY4   |    21|
 |2     |LUT1     |   290|
-|3     |LUT2     |   379|
-|4     |LUT3     |  1225|
-|5     |LUT4     |   863|
-|6     |LUT5     |   933|
+|3     |LUT2     |   381|
+|4     |LUT3     |  1273|
+|5     |LUT4     |   862|
+|6     |LUT5     |   937|
 |7     |LUT6     |  1610|
 |8     |MUXF7    |     4|
-|9     |RAM32M   |   136|
+|9     |RAM32M   |   142|
 |10    |RAM32X1D |     3|
 |11    |SRL16    |     1|
 |12    |SRL16E   |   199|
 |13    |SRLC32E  |   183|
 |14    |FDCE     |   138|
 |15    |FDR      |     4|
-|16    |FDRE     |  5310|
+|16    |FDRE     |  5454|
 |17    |FDSE     |   304|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:58 ; elapsed = 00:03:10 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:53 ; elapsed = 00:02:55 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:55 ; elapsed = 00:02:26 . Memory (MB): peak = 2139.441 ; gain = 81.500
-Synthesis Optimization Complete : Time (s): cpu = 00:02:58 ; elapsed = 00:03:10 . Memory (MB): peak = 2139.441 ; gain = 934.426
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:00 ; elapsed = 00:02:19 . Memory (MB): peak = 2244.234 ; gain = 171.707
+Synthesis Optimization Complete : Time (s): cpu = 00:02:53 ; elapsed = 00:02:55 . Memory (MB): peak = 2244.234 ; gain = 1023.508
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.504 . Memory (MB): peak = 2139.441 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 169 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.561 . Memory (MB): peak = 2244.234 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 175 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2139.441 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2244.234 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 144 instances were transformed.
+  A total of 150 instances were transformed.
   FDR => FDRE: 4 instances
-  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 136 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 142 instances
   RAM32X1D => RAM32X1D (RAMD32(x2)): 3 instances
   SRL16 => SRL16E: 1 instance 
 
-Synth Design complete, checksum: a88f8c0b
+Synth Design complete, checksum: a41b4bb4
 INFO: [Common 17-83] Releasing license: Synthesis
 206 Infos, 46 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:03:06 ; elapsed = 00:03:23 . Memory (MB): peak = 2139.441 ; gain = 934.426
-INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1/design_1_axi_smc_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_smc_0, cache-ID = 03a683ac888ce11f
+synth_design: Time (s): cpu = 00:03:01 ; elapsed = 00:03:05 . Memory (MB): peak = 2244.234 ; gain = 1023.508
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1/design_1_axi_smc_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_smc_0, cache-ID = ed19918b239acfd1
 INFO: [Coretcl 2-1174] Renamed 913 cell refs.
-INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1/design_1_axi_smc_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/project_1/project_1.runs/design_1_axi_smc_0_synth_1/design_1_axi_smc_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_axi_smc_0_utilization_synth.rpt -pb design_1_axi_smc_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Jan  4 13:49:57 2022...
+INFO: [Common 17-206] Exiting Vivado at Tue Jan  4 17:32:17 2022...

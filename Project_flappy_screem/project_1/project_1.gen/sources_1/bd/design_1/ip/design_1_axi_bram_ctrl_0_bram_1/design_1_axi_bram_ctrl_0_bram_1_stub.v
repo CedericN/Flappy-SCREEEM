@@ -1,11 +1,11 @@
 // Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-// Date        : Mon Jan  3 14:57:13 2022
+// Date        : Tue Jan  4 16:10:26 2022
 // Host        : HP-CE running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub -rename_top design_1_axi_bram_ctrl_0_bram_1 -prefix
-//               design_1_axi_bram_ctrl_0_bram_1_ design_1_axi_bram_ctrl_0_bram_0_stub.v
-// Design      : design_1_axi_bram_ctrl_0_bram_0
+//               design_1_axi_bram_ctrl_0_bram_1_ design_1_axi_bram_ctrl_1_bram_0_stub.v
+// Design      : design_1_axi_bram_ctrl_1_bram_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z007sclg225-1
 // --------------------------------------------------------------------------------

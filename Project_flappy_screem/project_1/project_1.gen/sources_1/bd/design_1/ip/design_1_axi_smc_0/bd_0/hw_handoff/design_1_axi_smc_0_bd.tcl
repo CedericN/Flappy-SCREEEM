@@ -44,6 +44,7 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
 set list_projs [get_projects -quiet]
 if { $list_projs eq "" } {
    create_project project_1 myproj -part xc7z007sclg225-1
+   set_property BOARD_PART em.avnet.com:minized:part0:1.2 [current_project]
 }
 
 
@@ -700,14 +701,14 @@ proc create_hier_cell_s00_entry_pipeline { parentCell nameHier } {
    CONFIG.SEG000_SECURE_READ {0} \
    CONFIG.SEG000_SECURE_WRITE {0} \
    CONFIG.SEG000_SEP_ROUTE {0b0000000000000000000000000000000000000000000000000000000000000000} \
-   CONFIG.SEG000_SIZE {13} \
+   CONFIG.SEG000_SIZE {16} \
    CONFIG.SEG000_SUPPORTS_READ {1} \
    CONFIG.SEG000_SUPPORTS_WRITE {1} \
-   CONFIG.SEG001_BASE_ADDR {0x0000000042000000} \
+   CONFIG.SEG001_BASE_ADDR {0x0000000040010000} \
    CONFIG.SEG001_SECURE_READ {0} \
    CONFIG.SEG001_SECURE_WRITE {0} \
    CONFIG.SEG001_SEP_ROUTE {0b0000000000000000000000000000000000000000000000000000000000000001} \
-   CONFIG.SEG001_SIZE {13} \
+   CONFIG.SEG001_SIZE {16} \
    CONFIG.SEG001_SUPPORTS_READ {1} \
    CONFIG.SEG001_SUPPORTS_WRITE {1} \
    CONFIG.SEG002_BASE_ADDR {0x0000000043C00000} \
@@ -1595,7 +1596,7 @@ proc create_hier_cell_m01_exit_pipeline { parentCell nameHier } {
   # Create instance: m01_exit, and set properties
   set m01_exit [ create_bd_cell -type ip -vlnv xilinx.com:ip:sc_exit:1.0 m01_exit ]
   set_property -dict [ list \
-   CONFIG.ADDR_WIDTH {13} \
+   CONFIG.ADDR_WIDTH {16} \
    CONFIG.HAS_BURST {1} \
    CONFIG.HAS_LOCK {0} \
    CONFIG.IS_CASCADED {0} \
@@ -2017,7 +2018,7 @@ proc create_hier_cell_m00_exit_pipeline { parentCell nameHier } {
   # Create instance: m00_exit, and set properties
   set m00_exit [ create_bd_cell -type ip -vlnv xilinx.com:ip:sc_exit:1.0 m00_exit ]
   set_property -dict [ list \
-   CONFIG.ADDR_WIDTH {13} \
+   CONFIG.ADDR_WIDTH {16} \
    CONFIG.HAS_BURST {1} \
    CONFIG.HAS_LOCK {0} \
    CONFIG.IS_CASCADED {0} \
@@ -2222,7 +2223,7 @@ proc create_root_design { parentCell } {
   # Create instance: m00_sc2axi, and set properties
   set m00_sc2axi [ create_bd_cell -type ip -vlnv xilinx.com:ip:sc_sc2axi:1.0 m00_sc2axi ]
   set_property -dict [ list \
-   CONFIG.AXI_ADDR_WIDTH {13} \
+   CONFIG.AXI_ADDR_WIDTH {16} \
    CONFIG.AXI_ID_WIDTH {3} \
    CONFIG.AXI_RDATA_WIDTH {32} \
    CONFIG.AXI_WDATA_WIDTH {32} \
@@ -2249,7 +2250,7 @@ proc create_root_design { parentCell } {
   # Create instance: m01_sc2axi, and set properties
   set m01_sc2axi [ create_bd_cell -type ip -vlnv xilinx.com:ip:sc_sc2axi:1.0 m01_sc2axi ]
   set_property -dict [ list \
-   CONFIG.AXI_ADDR_WIDTH {13} \
+   CONFIG.AXI_ADDR_WIDTH {16} \
    CONFIG.AXI_ID_WIDTH {3} \
    CONFIG.AXI_RDATA_WIDTH {32} \
    CONFIG.AXI_WDATA_WIDTH {32} \

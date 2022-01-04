@@ -22,3 +22,14 @@ bsp write
 bsp reload
 catch {bsp regenerate}
 platform generate
+platform active {NeoPixelV10}
+platform write
+platform active {NeoPixelV10}
+bsp reload
+bsp reload
+platform active {NeoPixelV10}
+domain active {zynq_fsbl}
+domain active {freertos10_xilinx_domain}
+bsp reload
+bsp reload
+bsp reload

@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x2DF156AF53B980C6",
+      "boundary_crc": "0x67D8C566D10D1CDB",
       "design_src": "SBD",
       "device": "xc7z007sclg225-1",
       "name": "bd_afc3",
@@ -93,7 +93,7 @@
             "value_src": "const_prop"
           },
           "CLK_DOMAIN": {
-            "value": "design_1_processing_system7_0_0_FCLK_CLK0",
+            "value": "design_1_processing_system7_0_1_FCLK_CLK0",
             "value_src": "default_prop"
           },
           "DATA_WIDTH": {
@@ -212,7 +212,7 @@
         "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
         "parameters": {
           "ADDR_WIDTH": {
-            "value": "13",
+            "value": "16",
             "value_src": "ip_prop"
           },
           "ARUSER_WIDTH": {
@@ -228,7 +228,7 @@
             "value_src": "default"
           },
           "CLK_DOMAIN": {
-            "value": "design_1_processing_system7_0_0_FCLK_CLK0",
+            "value": "design_1_processing_system7_0_1_FCLK_CLK0",
             "value_src": "default_prop"
           },
           "DATA_WIDTH": {
@@ -338,7 +338,7 @@
         "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
         "parameters": {
           "ADDR_WIDTH": {
-            "value": "13",
+            "value": "16",
             "value_src": "ip_prop"
           },
           "ARUSER_WIDTH": {
@@ -354,7 +354,7 @@
             "value_src": "default"
           },
           "CLK_DOMAIN": {
-            "value": "design_1_processing_system7_0_0_FCLK_CLK0",
+            "value": "design_1_processing_system7_0_1_FCLK_CLK0",
             "value_src": "default_prop"
           },
           "DATA_WIDTH": {
@@ -480,7 +480,7 @@
             "value_src": "default"
           },
           "CLK_DOMAIN": {
-            "value": "design_1_processing_system7_0_0_FCLK_CLK0",
+            "value": "design_1_processing_system7_0_1_FCLK_CLK0",
             "value_src": "default_prop"
           },
           "DATA_WIDTH": {
@@ -598,7 +598,7 @@
             "value_src": "constant"
           },
           "CLK_DOMAIN": {
-            "value": "design_1_processing_system7_0_0_FCLK_CLK0",
+            "value": "design_1_processing_system7_0_1_FCLK_CLK0",
             "value_src": "default_prop"
           },
           "FREQ_HZ": {
@@ -1343,7 +1343,7 @@
                 "value": "0b0000000000000000000000000000000000000000000000000000000000000000"
               },
               "SEG000_SIZE": {
-                "value": "13"
+                "value": "16"
               },
               "SEG000_SUPPORTS_READ": {
                 "value": "1"
@@ -1352,7 +1352,7 @@
                 "value": "1"
               },
               "SEG001_BASE_ADDR": {
-                "value": "0x0000000042000000"
+                "value": "0x0000000040010000"
               },
               "SEG001_SECURE_READ": {
                 "value": "0"
@@ -1364,7 +1364,7 @@
                 "value": "0b0000000000000000000000000000000000000000000000000000000000000001"
               },
               "SEG001_SIZE": {
-                "value": "13"
+                "value": "16"
               },
               "SEG001_SUPPORTS_READ": {
                 "value": "1"
@@ -2678,7 +2678,7 @@
         "inst_hier_path": "m00_sc2axi",
         "parameters": {
           "AXI_ADDR_WIDTH": {
-            "value": "13"
+            "value": "16"
           },
           "AXI_ID_WIDTH": {
             "value": "3"
@@ -3705,7 +3705,7 @@
             "inst_hier_path": "m00_exit_pipeline/m00_exit",
             "parameters": {
               "ADDR_WIDTH": {
-                "value": "13"
+                "value": "16"
               },
               "HAS_BURST": {
                 "value": "1"
@@ -3833,7 +3833,7 @@
         "inst_hier_path": "m01_sc2axi",
         "parameters": {
           "AXI_ADDR_WIDTH": {
-            "value": "13"
+            "value": "16"
           },
           "AXI_ID_WIDTH": {
             "value": "3"
@@ -4860,7 +4860,7 @@
             "inst_hier_path": "m01_exit_pipeline/m01_exit",
             "parameters": {
               "ADDR_WIDTH": {
-                "value": "13"
+                "value": "16"
               },
               "HAS_BURST": {
                 "value": "1"
