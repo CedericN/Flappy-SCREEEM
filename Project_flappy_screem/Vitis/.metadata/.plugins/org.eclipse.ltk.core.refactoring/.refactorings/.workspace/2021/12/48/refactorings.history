@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Neopixel_matrix_test_1&apos;" deleteContents="true" description="Delete resource &apos;Neopixel_matrix_test_1&apos;" element1="/Neopixel_matrix_test_1" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1638371873887"/>&#x0A;<refactoring comment="Delete resource &apos;Perseptio_Test_system&apos;" deleteContents="true" description="Delete resource &apos;Perseptio_Test_system&apos;" element1="/Perseptio_Test_system" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1638371880622"/>
-</session>
