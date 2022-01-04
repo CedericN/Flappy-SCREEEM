@@ -7712,3 +7712,18 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.xilinx.sdk.utils 0 0 2022-01-03 12:18:10.185
 !MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, D:/Programmas/xilinx/Vitis/2021.1/data]. Thread: Worker-7: Initializing s/w repositories
+!SESSION 2022-01-04 15:30:15.714 -----------------------------------------------
+eclipse.buildId=2021.1
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=nl_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Xilinx\EOS\project_flappy_screem\Flappy SCREEEM\Project_flappy_screem\Vitis
+
+!ENTRY org.eclipse.ui 4 4 2022-01-04 15:30:21.930
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-01-04 15:31:16.075
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.xilinx.ide.tools.startup.ToolInit$5
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-01-04 15:31:16.076
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.xilinx.sdk.xsdb.XSDBCommandManager$2

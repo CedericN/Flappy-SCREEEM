@@ -8595,3 +8595,16 @@ con
 12:17:56 INFO  : Registering command handlers for Vitis TCF services
 12:17:56 INFO  : Platform repository initialization has completed.
 12:18:10 INFO  : Successfully done query RDI_DATADIR 
+15:30:25 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Xilinx\EOS\project_flappy_screem\Flappy SCREEEM\Project_flappy_screem\Vitis\temp_xsdb_launch_script.tcl
+15:30:29 ERROR : (XSDB Server)invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:\Xilinx\EOS\project_flappy_screem\Flappy" line 1)
+
+15:30:30 ERROR : Workspace location C:\Xilinx\EOS\project_flappy_screem\Flappy SCREEEM\Project_flappy_screem\Vitis contains spaces. Please switch to a workspace without spaces in its path.
+15:30:32 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+15:30:32 INFO  : Platform repository initialization has completed.
+15:30:32 INFO  : Registering command handlers for Vitis TCF services

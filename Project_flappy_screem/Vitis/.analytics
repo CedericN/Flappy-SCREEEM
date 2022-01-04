@@ -263,3 +263,6 @@ timestamp=[2021-12-23 17:07:18], mode=BUILD, duration=0:00:01.707, duration_ms=1
 timestamp=[2022-01-03 12:17:53], mode=WORKBENCH_START, duration=0:00:25.151, duration_ms=25151, data={}
 timestamp=[2022-01-03 12:17:55], mode=WORKBENCH_UI_INIT, duration=0:00:01.826, duration_ms=1826, data={editors_count=3, platform_editors_count=0, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=Led_matrix_V10,Led_matrix_V10_system,Led_matrix_V11_cpp,Led_matrix_V11_cpp_system,Led_matrix_V8,Led_matrix_V8_system,NeoPixelV10,RemoteSystemsTempFiles}
 timestamp=[2022-01-03 12:17:56], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.557, duration_ms=557, data={}
+timestamp=[2022-01-04 15:30:30], mode=WORKBENCH_START, duration=0:00:12.503, duration_ms=12503, data={}
+timestamp=[2022-01-04 15:30:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.069, duration_ms=69, data={}
+timestamp=[2022-01-04 15:30:32], mode=WORKBENCH_UI_INIT, duration=0:00:01.641, duration_ms=1641, data={editors_count=3, platform_editors_count=0, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=Led_matrix_V10,Led_matrix_V10_system,Led_matrix_V11_cpp,Led_matrix_V11_cpp_system,Led_matrix_V8,Led_matrix_V8_system,NeoPixelV10,RemoteSystemsTempFiles}

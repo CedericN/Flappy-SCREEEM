@@ -15,18 +15,24 @@
   </ObjectList>
   <ObjectList object_type="hw_probe" gui_info="">
     <Object name="design_1_i/NLW_vio_0_probe_in6_UNCONNECTED" gui_info="dashboard_1/hw_vio_1=6"/>
-    <Object name="design_1_i/axi_bram_ctrl_0_bram_doutb[31:0]" gui_info="hw_vios/hw_vio_1=0,dashboard_1/hw_vio_1=2,dashboard_2/hw_vio_1=4"/>
-    <Object name="design_1_i/i2s_transceiver_0_addra[31:0]" gui_info="hw_vios/hw_vio_1=1,dashboard_1/hw_vio_1=5,dashboard_2/hw_vio_1=5"/>
-    <Object name="design_1_i/i2s_transceiver_0_addrb[31:0]" gui_info="hw_vios/hw_vio_1=2,dashboard_1/hw_vio_1=6,dashboard_2/hw_vio_1=6"/>
+    <Object name="design_1_i/Net[11:0]" gui_info="dashboard_1/hw_vio_1=6"/>
+    <Object name="design_1_i/Net[15:0]" gui_info="dashboard_1/hw_vio_1=9"/>
+    <Object name="design_1_i/axi_bram_ctrl_0_bram_doutb[31:0]" gui_info="hw_vios/hw_vio_1=0,dashboard_1/hw_vio_1=0,dashboard_2/hw_vio_1=4"/>
+    <Object name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[15:0]" gui_info="dashboard_1/hw_vio_1=1"/>
+    <Object name="design_1_i/i2s_transceiver_0_addra[31:0]" gui_info="hw_vios/hw_vio_1=1,dashboard_1/hw_vio_1=2,dashboard_2/hw_vio_1=5"/>
+    <Object name="design_1_i/i2s_transceiver_0_addrb[31:0]" gui_info="hw_vios/hw_vio_1=2,dashboard_1/hw_vio_1=3,dashboard_2/hw_vio_1=6"/>
     <Object name="design_1_i/i2s_transceiver_0_control" gui_info="dashboard_1/hw_vio_1=0,dashboard_2/hw_vio_1=0"/>
-    <Object name="design_1_i/i2s_transceiver_0_dina[31:0]" gui_info="hw_vios/hw_vio_1=3,dashboard_1/hw_vio_1=1,dashboard_2/hw_vio_1=1"/>
+    <Object name="design_1_i/i2s_transceiver_0_control[11:0]" gui_info="dashboard_1/hw_vio_1=7"/>
+    <Object name="design_1_i/i2s_transceiver_0_control[15:0]" gui_info="dashboard_1/hw_vio_1=4"/>
+    <Object name="design_1_i/i2s_transceiver_0_dina[31:0]" gui_info="hw_vios/hw_vio_1=3,dashboard_1/hw_vio_1=5,dashboard_2/hw_vio_1=1"/>
     <Object name="design_1_i/i2s_transceiver_0_dinl_tmp[23:0]" gui_info="dashboard_2/hw_vio_1=3,dashboard_1/hw_vio_1=4"/>
     <Object name="design_1_i/i2s_transceiver_0_dinr_tmp[23:0]" gui_info="dashboard_2/hw_vio_1=2,dashboard_1/hw_vio_1=3"/>
-    <Object name="design_1_i/i2s_transceiver_0_sd_tx" gui_info="hw_vios/hw_vio_1=4,dashboard_1/hw_vio_1=7,dashboard_2/hw_vio_1=7"/>
-    <Object name="design_1_i/sd_rx_0_1" gui_info="hw_vios/hw_vio_1=5,dashboard_1/hw_vio_1=8,dashboard_2/hw_vio_1=8"/>
+    <Object name="design_1_i/i2s_transceiver_0_sd_tx" gui_info="hw_vios/hw_vio_1=4,dashboard_1/hw_vio_1=6,dashboard_2/hw_vio_1=7"/>
+    <Object name="design_1_i/sd_rx_0_1" gui_info="hw_vios/hw_vio_1=5,dashboard_1/hw_vio_1=7,dashboard_2/hw_vio_1=8"/>
+    <Object name="design_1_i/vio_0_probe_out0" gui_info="dashboard_1/hw_vio_1=8"/>
   </ObjectList>
   <ObjectList object_type="hw_vio" gui_info="">
-    <Object name="hw_vio_1" gui_info="hw_vios/hw_vio_1/TablePreference=5	771	Name	0	2147483647	15	361	361	Value	1	2147483647	15	142	142	Activity	2	2147483647	15	117	117	Direction	3	2147483647	15	72	72	VIO	4	2147483647	15	79	79			1	6	1	Name	Value	Activity	Direction	VIO,dashboard_2/hw_vio_1/TablePreference=5	760	Name	0	2147483647	15	361	361	Value	1	2147483647	15	189	189	Activity	2	2147483647	15	60	60	Direction	3	2147483647	15	72	72	VIO	4	2147483647	15	79	79			1	6	1	Name	Value	Activity	Direction	VIO"/>
+    <Object name="hw_vio_1" gui_info="hw_vios/hw_vio_1/TablePreference=5	771	Name	0	2147483647	15	361	361	Value	1	2147483647	15	142	142	Activity	2	2147483647	15	117	117	Direction	3	2147483647	15	72	72	VIO	4	2147483647	15	79	79			1	6	1	Name	Value	Activity	Direction	VIO,dashboard_2/hw_vio_1/TablePreference=5	760	Name	0	2147483647	15	361	361	Value	1	2147483647	15	189	189	Activity	2	2147483647	15	60	60	Direction	3	2147483647	15	72	72	VIO	4	2147483647	15	79	79			1	6	1	Name	Value	Activity	Direction	VIO,dashboard_1/hw_vio_1/TablePreference=5	721	Name	0	2147483647	15	390	390	Value	1	2147483647	15	120	120	Activity	2	2147483647	15	60	60	Direction	3	2147483647	15	72	72	VIO	4	2147483647	15	79	79			1	6	1	Name	Value	Activity	Direction	VIO"/>
   </ObjectList>
   <probeset name="hw project" active="false">
     <probe type="vio_input" busType="net" source="netlist" spec="VIO_INPUT_V2_RT">
@@ -88,6 +94,36 @@
         <net name="design_1_i/axi_bram_ctrl_0_bram_doutb[2]"/>
         <net name="design_1_i/axi_bram_ctrl_0_bram_doutb[1]"/>
         <net name="design_1_i/axi_bram_ctrl_0_bram_doutb[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_input" busType="bus" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="UNSIGNED"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[15]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[14]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[13]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[12]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[11]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[10]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[9]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[8]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[7]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[6]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[5]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[4]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[3]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[2]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[1]"/>
+        <net name="design_1_i/i2s_transceiver_0_PlayCurrentBuff[0]"/>
       </nets>
     </probe>
     <probe type="vio_input" busType="bus" source="netlist" spec="VIO_INPUT_V2_RT">
@@ -197,6 +233,62 @@
         <net name="design_1_i/i2s_transceiver_0_control"/>
       </nets>
     </probe>
+    <probe type="vio_input" busType="net" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="UNSIGNED"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/i2s_transceiver_0_control[11]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[10]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[9]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[8]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[7]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[6]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[5]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[4]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[3]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[2]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[1]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_input" busType="bus" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="INFINITE"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="UNSIGNED"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/i2s_transceiver_0_control[15]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[14]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[13]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[12]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[11]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[10]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[9]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[8]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[7]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[6]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[5]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[4]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[3]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[2]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[1]"/>
+        <net name="design_1_i/i2s_transceiver_0_control[0]"/>
+      </nets>
+    </probe>
     <probe type="vio_input" busType="bus" source="netlist" spec="VIO_INPUT_V2_RT">
       <probeOptions Id="DebugProbeParams">
         <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
@@ -243,7 +335,7 @@
         <net name="design_1_i/i2s_transceiver_0_dina[0]"/>
       </nets>
     </probe>
-    <probe type="vio_input" busType="bus" source="netlist" spec="VIO_INPUT_V2_RT">
+    <probe type="vio_input" busType="net" source="netlist" spec="VIO_INPUT_V2_RT">
       <probeOptions Id="DebugProbeParams">
         <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
         <Option Id="DISPLAY_HINT" value=""/>
@@ -281,7 +373,7 @@
         <net name="design_1_i/i2s_transceiver_0_dinl_tmp[0]"/>
       </nets>
     </probe>
-    <probe type="vio_input" busType="bus" source="netlist" spec="VIO_INPUT_V2_RT">
+    <probe type="vio_input" busType="net" source="netlist" spec="VIO_INPUT_V2_RT">
       <probeOptions Id="DebugProbeParams">
         <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
         <Option Id="DISPLAY_HINT" value=""/>
@@ -347,6 +439,77 @@
       </probeOptions>
       <nets>
         <net name="design_1_i/sd_rx_0_1"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="100"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="UNSIGNED"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/Net[11]"/>
+        <net name="design_1_i/Net[10]"/>
+        <net name="design_1_i/Net[9]"/>
+        <net name="design_1_i/Net[8]"/>
+        <net name="design_1_i/Net[7]"/>
+        <net name="design_1_i/Net[6]"/>
+        <net name="design_1_i/Net[5]"/>
+        <net name="design_1_i/Net[4]"/>
+        <net name="design_1_i/Net[3]"/>
+        <net name="design_1_i/Net[2]"/>
+        <net name="design_1_i/Net[1]"/>
+        <net name="design_1_i/Net[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="bus" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="10"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="UNSIGNED"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/Net[15]"/>
+        <net name="design_1_i/Net[14]"/>
+        <net name="design_1_i/Net[13]"/>
+        <net name="design_1_i/Net[12]"/>
+        <net name="design_1_i/Net[11]"/>
+        <net name="design_1_i/Net[10]"/>
+        <net name="design_1_i/Net[9]"/>
+        <net name="design_1_i/Net[8]"/>
+        <net name="design_1_i/Net[7]"/>
+        <net name="design_1_i/Net[6]"/>
+        <net name="design_1_i/Net[5]"/>
+        <net name="design_1_i/Net[4]"/>
+        <net name="design_1_i/Net[3]"/>
+        <net name="design_1_i/Net[2]"/>
+        <net name="design_1_i/Net[1]"/>
+        <net name="design_1_i/Net[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="0"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/vio_0_probe_out0"/>
       </nets>
     </probe>
   </probeset>

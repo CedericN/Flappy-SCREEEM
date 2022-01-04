@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Xilinx/EOS/Project_flappy_screem/project_1/project_1.srcs/constrs_2/new/pmodi2s.xdc rfile:../../../project_1.srcs/constrs_2/new/pmodi2s.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:{C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.srcs/constrs_2/new/pmodi2s.xdc} rfile:../../../project_1.srcs/constrs_2/new/pmodi2s.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:10 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN P13 [get_ports {mclk_0[1]}]
 set_property src_info {type:XDC file:1 line:11 export:INPUT save:INPUT read:READ} [current_design]

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Xilinx/EOS/Project_flappy_screem/project_1/project_1.runs/impl_1'
+HD_PWD='C:/Xilinx/EOS/project_flappy_screem/Flappy SCREEEM/Project_flappy_screem/project_1/project_1.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

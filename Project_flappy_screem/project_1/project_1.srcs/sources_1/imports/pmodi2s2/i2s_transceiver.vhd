@@ -55,9 +55,13 @@ ENTITY i2s_transceiver IS
     web       :  out  std_logic_vector(3 downto 0);
     doutb     :  in  std_logic_vector(31 downto 0);
     
-    control     : out std_logic;
-    dinl_tmp     : out std_logic_vector(23 downto 0);
-    dinr_tmp     : out std_logic_vector(23 downto 0));
+    enableRead      : in boolean;
+    Readbuffsize    : in std_logic_vector(15 downto 0);
+    enablePlay      : in boolean;
+    Playbuffsize    : in std_logic_vector(15 downto 0);
+    ReadCurrentBuff : out std_logic_vector (15 downto 0);
+    PlayCurrentBuff : out std_logic_vector (15 downto 0));
+    
 END i2s_transceiver;
 
 ARCHITECTURE logic OF i2s_transceiver IS
@@ -71,106 +75,132 @@ ARCHITECTURE logic OF i2s_transceiver IS
    
 BEGIN  
   
+  web <= (others  => '0');
+  rsta <= '0';
+  rstb <= '0';
+  dinb <= (others => '0');
+  
   PROCESS(mclk, reset_n)
-    VARIABLE sclk_cnt  :  INTEGER := 0;  --counter of master clocks during half period of serial clock
-    VARIABLE ws_cnt    :  INTEGER := 0;  --counter of serial clock toggles during half period of word select
+    VARIABLE sclk_cnt   :  INTEGER := 0;  --counter of master clocks during half period of serial clock
+    VARIABLE ws_cnt     :  INTEGER := 0;  --counter of serial clock toggles during half period of word select
     variable data_outr  :  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);
     variable data_inr   :  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);
     variable data_outl  :  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);
     variable data_inl   :  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);
-    variable ramADR    :  INTEGER := 0;
-    variable dualFlag  : std_logic := '1';
+    variable ramADRread :  INTEGER := 0;
+    variable ramADRPlay :  Integer := TO_INTEGER(unsigned(Playbuffsize));
+    variable dualFlag   :  boolean := true;
+    
 --    variable r_data    :  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);
   BEGIN
     
-    IF(reset_n = '0') THEN                                           --asynchronous reset
-      sclk_cnt := 0;                                                   --clear mclk/sclk counter
-      ws_cnt := 0;                                                     --clear sclk/ws counter
-      sclk_int <= '0';                                                 --clear serial clock signal
-      ws_int <= '0';                                                   --clear word select signal
---      l_data_rx_int <= (OTHERS => '0');                                --clear internal left channel rx data buffer
---      r_data_rx_int <= (OTHERS => '0');                                --clear internal right channel rx data buffer
---      l_data_tx_int <= (OTHERS => '0');                                --clear internal left channel tx data buffer
---      r_data_tx_int <= (OTHERS => '0');                                --clear internal right channel tx data buffer
-      sd_tx <= '0';                                                    --clear serial data transmit output
---      l_data_rx <= (OTHERS => '0');                                    --clear left channel received data output
---      r_data_rx <= (OTHERS => '0');                                                       --clear serial data transmit output
-      data_outr := (OTHERS => '0');                                    --clear left channel received data output
-      data_inr := (OTHERS => '0');                                   --clear right channel received data output                                                       --clear serial data transmit output
-      data_outl := (OTHERS => '0');                                    --clear left channel received data output
+    IF(reset_n = '0') THEN                                               --asynchronous reset
+      sclk_cnt := 0;                                                     --clear mclk/sclk counter
+      ws_cnt := 0;                                                       --clear sclk/ws counter
+      sclk_int <= '0';                                                   --clear serial clock signal
+      ws_int <= '0';                                                     --clear word select signal
+--      l_data_rx_int <= (OTHERS => '0');                                  --clear internal left channel rx data buffer
+--      r_data_rx_int <= (OTHERS => '0');                                  --clear internal right channel rx data buffer
+--      l_data_tx_int <= (OTHERS => '0');                                  --clear internal left channel tx data buffer
+--      r_data_tx_int <= (OTHERS => '0');                                  --clear internal right channel tx data buffer
+      sd_tx <= '0';                                                        --clear serial data transmit output
+--      l_data_rx <= (OTHERS => '0');                                      --clear left channel received data output
+--      r_data_rx <= (OTHERS => '0');                                      --clear serial data transmit output
+      data_outr := (OTHERS => '0');                                      --clear left channel received data output
+      data_inr := (OTHERS => '0');                                       --clear right channel received data output                                                       --clear serial data transmit output
+      data_outl := (OTHERS => '0');                                      --clear left channel received data output
       data_inl := (OTHERS => '0');  
-    ELSIF(mclk'EVENT AND mclk = '1') THEN                            --master clock rising edge
+    ELSIF(mclk'EVENT AND mclk = '1') THEN                                --master clock rising edge
       ena <= '0';
       enb <= '0';
       wea <= "0000";
-      IF(sclk_cnt < mclk_sclk_ratio/2-1) THEN                          --less than half period of sclk
+      IF(sclk_cnt < mclk_sclk_ratio/2-1) THEN                            --less than half period of sclk
         sclk_cnt := sclk_cnt + 1;                                        --increment mclk/sclk counter
-      ELSE                                                            --half period of sclk
+      ELSE                                                               --half period of sclk
         sclk_cnt := 0;                                                   --reset mclk/sclk counter
         sclk_int <= NOT sclk_int;                                        --toggle serial clock
         IF(ws_cnt < sclk_ws_ratio-1) THEN                                --less than half period of ws
           if ws_cnt = sclk_ws_ratio-2 then
-            if dualFlag = '1' then
-                dualFlag := '0';
-                
-                addrb <= std_logic_vector(to_unsigned(ramADR * 4, 32));
-                
-                if ramADR < 10 then
-                  ramADR := ramADR + 1;
+            if dualFlag then
+                dualFlag := false;
+                if enableRead then
+                    addra <= std_logic_vector(to_unsigned(ramADRread * 4, 32));
+                    ReadCurrentBuff  <= std_logic_vector(to_unsigned(ramADRread, 16));
+                    if ramADRread < TO_INTEGER(unsigned(Readbuffsize)) then
+                      ramADRread := ramADRread + 1;
+                    else
+                      ramADRread  := 0;
+                    end if;
+                    
+                    wea <= "1111";
+                    ena <= '1';
                 else
-                  ramADR  := 0;
+                    ramADRread  := 0;
+                    addra <= std_logic_vector(to_unsigned(ramADRread * 4, 32));
+                    ReadCurrentBuff  <= std_logic_vector(to_unsigned(ramADRread, 16));
+                    
+                    ena <= '1';
                 end if;
                 
-                addra <= std_logic_vector(to_unsigned(ramADR * 4, 32));
-                
-                wea <= "1111";
-                ena <= '1';
-                enb <= '1';
-                control <= '1';
-                
+                if enablePlay then
+                    addrb <= std_logic_vector(to_unsigned(ramADRPlay * 4, 32));
+                    PlayCurrentBuff  <= std_logic_vector(to_unsigned(ramADRPlay, 16));
+                    if ramADRPlay < TO_INTEGER(unsigned(Playbuffsize)) then
+                      ramADRPlay := ramADRPlay + 1;
+                    else
+                      ramADRPlay  := 0;
+                    end if;
+                    
+                    enb <= '1';
+                else
+                    ramADRPlay  := 0;
+                    addrb <= std_logic_vector(to_unsigned(ramADRPlay * 4, 32));
+                    PlayCurrentBuff  <= std_logic_vector(to_unsigned(ramADRPlay, 16));
+                    
+                    enb <= '1';
+                end if;              
             else
-                dualFlag := '1';
+                dualFlag := true;
             end if;
           end if;
           
-          ws_cnt := ws_cnt + 1; 
-                                                     --increment sclk/ws counter
-          IF(sclk_int = '0' AND ws_cnt > 1 AND ws_cnt < d_width*2+2) THEN  --rising edge of sclk during data word
-            IF(ws_int = '1') THEN                                            --right channel
-              data_inr := data_inr(d_width-2 DOWNTO 0) & sd_rx;      --shift data bit into right channel rx data buffer
-              dinr_tmp <= data_inr;
-            ELSE                                                             --left channel
-              data_inl := data_inl(d_width-2 DOWNTO 0) & sd_rx;      --shift data bit into left channel rx data buffer
+          ws_cnt := ws_cnt + 1;                                                           --increment sclk/ws counter
+          IF(sclk_int = '0' AND ws_cnt > 1 AND ws_cnt < d_width*2+2) and enableRead THEN  --rising edge of sclk during data word
+            IF(ws_int = '1') THEN                                                         --right channel
+              data_inr := data_inr(d_width-2 DOWNTO 0) & sd_rx;                           --shift data bit into right channel rx data buffer
+            ELSE                                                                          --left channel
+              data_inl := data_inl(d_width-2 DOWNTO 0) & sd_rx;                           --shift data bit into left channel rx data buffer
             END IF;
           END IF;
-          IF(sclk_int = '1' AND ws_cnt < d_width*2+3) THEN                 --falling edge of sclk during data word
+          IF(sclk_int = '1' AND ws_cnt < d_width*2+3) and enablePlay THEN    --falling edge of sclk during data word
             IF(ws_int = '1') THEN                                            --right channel
-              sd_tx <= data_outr(d_width-1);                               --transmit serial data bit 
-              data_outr := data_outr(d_width-2 DOWNTO 0) & '0';        --shift data of right channel tx data buffer
+              sd_tx <= data_outr(d_width-1);                                 --transmit serial data bit 
+              data_outr := data_outr(d_width-2 DOWNTO 0) & '0';              --shift data of right channel tx data buffer
             ELSE                                                             --left channel
-              sd_tx <= data_outl(d_width-1);                               --transmit serial data bit
-              data_outl := data_outl(d_width-2 DOWNTO 0) & '0';        --shift data of left channel tx data buffer
+              sd_tx <= data_outl(d_width-1);                                 --transmit serial data bit
+              data_outl := data_outl(d_width-2 DOWNTO 0) & '0';              --shift data of left channel tx data buffer
             END IF;
           END IF;        
         ELSE 
             ws_cnt := 0;
             ws_int <= NOT ws_int; 
-            if dualFlag = '1' then
+            if dualFlag then
+                if enableRead then
+                    wea <= "1111";
+                    
+                    dina(15 downto 0)<= data_inr(23 downto 8);
+                    dina(31 downto 16) <= data_inl(23 downto 8);
+                end if;
                 
-                control <= '0'; 
+                if enablePlay then
+                    data_outl := (others => '0');
+                    data_outr := (others => '0');
                 
-                wea <= "1111";
+                    data_outr(23 downto 8) := doutb(15 downto 0);
+                    data_outl(23 downto 8) := doutb(31 downto 16);
+                end if;
                 
-                data_outl := (others => '0');
-                data_outr := (others => '0');
                 
-                data_outr(23 downto 8) := doutb(15 downto 0);
-                data_outl(23 downto 8) := doutb(31 downto 16);
-                
-                dinl_tmp <= data_inr;
-                
-                dina(15 downto 0)<= data_inr(23 downto 8);
-                dina(31 downto 16) <= data_inl(23 downto 8);
             end if;
           
 --          r_data_rx <= r_data_rx_int;                                     --output right channel received data

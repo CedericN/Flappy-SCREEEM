@@ -1,6 +1,81 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Jan  4 13:35:21 2022
+| Host         : HP-CE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_Pmod_I2S2_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_Pmod_I2S2_0_0 (xilinx.com:user:Pmod_I2S2:1.0) from (Rev. 1) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_Pmod_I2S2_0_0'.
+
+
+-Upgrade has added interface 'reset_n' (xilinx.com:signal:reset:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_Pmod_I2S2_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'addra'
+
+-Upgrade has added port 'addrb'
+
+-Upgrade has added port 'dina'
+
+-Upgrade has added port 'dinb'
+
+-Upgrade has added port 'douta'
+
+-Upgrade has added port 'doutb'
+
+-Upgrade has added port 'ena'
+
+-Upgrade has added port 'enb'
+
+-Upgrade has added port 'mclk'
+
+-Upgrade has added port 'reset_n'
+
+-Upgrade has added port 'rsta'
+
+-Upgrade has added port 'rstb'
+
+-Upgrade has added port 'sclk'
+
+-Upgrade has added port 'sd_rx'
+
+-Upgrade has added port 'sd_tx'
+
+-Upgrade has added port 'wea'
+
+-Upgrade has added port 'web'
+
+-Upgrade has added port 'ws'
+
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
 | Date         : Mon Jan  3 11:27:08 2022
 | Host         : HP-CE running 64-bit major release  (build 9200)
 | Command      : upgrade_ip

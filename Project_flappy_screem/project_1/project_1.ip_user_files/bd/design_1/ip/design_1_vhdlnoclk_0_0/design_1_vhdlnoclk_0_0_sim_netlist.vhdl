@@ -1,10 +1,10 @@
 -- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
--- Date        : Mon Dec 13 12:30:59 2021
+-- Date        : Mon Dec 13 12:30:58 2021
 -- Host        : PF1K6K4W running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/devWorks/pmodi2s2/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_vhdlnoclk_0_0/design_1_vhdlnoclk_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top design_1_vhdlnoclk_0_0 -prefix
+--               design_1_vhdlnoclk_0_0_ design_1_vhdlnoclk_0_0_sim_netlist.vhdl
 -- Design      : design_1_vhdlnoclk_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -18,8 +18,6 @@ entity design_1_vhdlnoclk_0_0_vhdlnoclk is
   port (
     clk65MHz : out STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_vhdlnoclk_0_0_vhdlnoclk : entity is "vhdlnoclk";
 end design_1_vhdlnoclk_0_0_vhdlnoclk;
 
 architecture STRUCTURE of design_1_vhdlnoclk_0_0_vhdlnoclk is
