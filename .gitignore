@@ -101,7 +101,6 @@ _deps
 *.log
 *.debug
 *.str
-*.zip
 *.tmp
 *.rst
 *.os
