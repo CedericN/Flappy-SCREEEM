@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jan  7 11:05:15 2022
+# Process ID: 22180
+# Current directory: C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/We_SCREEEEEEEM/We_SCREEEEEEEM.runs/design_1_axi_bram_ctrl_2_0_synth_1
+# Command line: vivado.exe -log design_1_axi_bram_ctrl_2_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_bram_ctrl_2_0.tcl
+# Log file: C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/We_SCREEEEEEEM/We_SCREEEEEEEM.runs/design_1_axi_bram_ctrl_2_0_synth_1/design_1_axi_bram_ctrl_2_0.vds
+# Journal file: C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/We_SCREEEEEEEM/We_SCREEEEEEEM.runs/design_1_axi_bram_ctrl_2_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_bram_ctrl_2_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1203.398 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programmas/xilinx/Vivado/2021.1/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1203.398 ; gain = 0.000
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/We_SCREEEEEEEM/We_SCREEEEEEEM.cache/ip 
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_axi_bram_ctrl_2_0, cache-ID = cba25c0c9183a79e.
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  7 11:06:09 2022...

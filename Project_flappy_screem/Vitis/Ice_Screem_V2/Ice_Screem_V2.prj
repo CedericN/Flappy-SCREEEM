@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Ice_Screem_V2" location="C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/Vitis/Ice_Screem_V2" platform="C:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/Vitis/LedScreem_V2/export/LedScreem_V2/LedScreem_V2.xpfm" platformUID="xilinx:minized::0.0(custom)" systemProject="Ice_Screem_V2_system" sysConfig="LedScreem_V2" runtime="C/C++" cpu="FreeRtos" cpuInstance="ps7_cortexa9_0" os="freertos10_xilinx" language="CPP" mssSignature="92d275162fd074dd42e430854095e32c">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.884806573">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.200285940" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

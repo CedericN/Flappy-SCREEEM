@@ -28,7 +28,6 @@ ENTITY i2s_transceiver IS
     sclk_ws_ratio    :  INTEGER := 64;   --number of sclk periods per word select period
     d_width          :  INTEGER := 24);  --data width
   PORT(
-    reset_n    :  IN   STD_LOGIC;                             --asynchronous active low reset
     mclk       :  IN   STD_LOGIC;                             --master clock
     sclk       :  OUT  STD_LOGIC;                             --serial clock (or bit clock)
     ws         :  OUT  STD_LOGIC;                             --word select (or left-right clock)
@@ -74,7 +73,7 @@ BEGIN
   rstb <= '0';
   dinb <= (others => '0');
   
-  PROCESS(mclk, reset_n)
+  PROCESS(mclk)
     VARIABLE sclk_cnt   :  INTEGER := 0;  --counter of master clocks during half period of serial clock
     VARIABLE ws_cnt     :  INTEGER := 0;  --counter of serial clock toggles during half period of word select
     variable data_outr  :  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);
@@ -88,23 +87,7 @@ BEGIN
 --    variable r_data    :  STD_LOGIC_VECTOR(d_width-1 DOWNTO 0);
   BEGIN
     
-    IF(reset_n = '0') THEN                                               --asynchronous reset
-      sclk_cnt := 0;                                                     --clear mclk/sclk counter
-      ws_cnt := 0;                                                       --clear sclk/ws counter
-      sclk_int <= '0';                                                   --clear serial clock signal
-      ws_int <= '0';                                                     --clear word select signal
---      l_data_rx_int <= (OTHERS => '0');                                  --clear internal left channel rx data buffer
---      r_data_rx_int <= (OTHERS => '0');                                  --clear internal right channel rx data buffer
---      l_data_tx_int <= (OTHERS => '0');                                  --clear internal left channel tx data buffer
---      r_data_tx_int <= (OTHERS => '0');                                  --clear internal right channel tx data buffer
-      sd_tx <= '0';                                                        --clear serial data transmit output
---      l_data_rx <= (OTHERS => '0');                                      --clear left channel received data output
---      r_data_rx <= (OTHERS => '0');                                      --clear serial data transmit output
-      data_outr := (OTHERS => '0');                                      --clear left channel received data output
-      data_inr := (OTHERS => '0');                                       --clear right channel received data output                                                       --clear serial data transmit output
-      data_outl := (OTHERS => '0');                                      --clear left channel received data output
-      data_inl := (OTHERS => '0');  
-    ELSIF(mclk'EVENT AND mclk = '1') THEN                                --master clock rising edge
+    IF rising_edge(mclk) THEN                                --master clock rising edge
       ena <= '0';
       enb <= '0';
       wea <= "0000";

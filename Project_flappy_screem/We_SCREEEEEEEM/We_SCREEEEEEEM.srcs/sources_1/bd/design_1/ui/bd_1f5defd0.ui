@@ -1,0 +1,79 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.870167",
+   "Default View_TopLeft":"40,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1510 -y 680 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1510 -y 710 -defaultsOSRD
+preplace port port-id_sd_tx_0 -pg 1 -lvl 5 -x 1510 -y 170 -defaultsOSRD
+preplace port port-id_sclk_0 -pg 1 -lvl 5 -x 1510 -y 20 -defaultsOSRD
+preplace port port-id_sd_rx_0 -pg 1 -lvl 0 -x -10 -y 190 -defaultsOSRD
+preplace port port-id_ws_0 -pg 1 -lvl 5 -x 1510 -y 80 -defaultsOSRD
+preplace port port-id_sclk_1 -pg 1 -lvl 5 -x 1510 -y 50 -defaultsOSRD
+preplace port port-id_ws_1 -pg 1 -lvl 5 -x 1510 -y 110 -defaultsOSRD
+preplace port port-id_Red -pg 1 -lvl 5 -x 1510 -y 140 -defaultsOSRD
+preplace port port-id_D_out_0 -pg 1 -lvl 5 -x 1510 -y 970 -defaultsOSRD
+preplace port port-id_Green -pg 1 -lvl 5 -x 1510 -y 1000 -defaultsOSRD
+preplace port port-id_mclk_0 -pg 1 -lvl 5 -x 1510 -y 370 -defaultsOSRD
+preplace port port-id_mclk_1 -pg 1 -lvl 5 -x 1510 -y 400 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -x 940 -y 1040 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 3 -x 940 -y 460 -defaultsOSRD
+preplace inst axi_bram_ctrl_2 -pg 1 -lvl 3 -x 940 -y 600 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 4 -x 1350 -y 860 -defaultsOSRD
+preplace inst axi_bram_ctrl_2_bram -pg 1 -lvl 4 -x 1350 -y 540 -defaultsOSRD
+preplace inst axi_bram_ctrl_1_bram -pg 1 -lvl 4 -x 1350 -y 260 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 220 -y 770 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 2 -x 600 -y 810 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 220 -y 1050 -defaultsOSRD
+preplace inst NeopixelDriver_0 -pg 1 -lvl 3 -x 940 -y 870 -defaultsOSRD
+preplace inst Pmod_I2S2_0 -pg 1 -lvl 3 -x 940 -y 210 -defaultsOSRD
+preplace netloc NeopixelDriver_0_D_out 1 3 2 1110J 720 1490J
+preplace netloc NeopixelDriver_0_addrb 1 3 1 1140 820n
+preplace netloc NeopixelDriver_0_dinb 1 3 1 N 860
+preplace netloc NeopixelDriver_0_enb 1 3 1 1140 880n
+preplace netloc NeopixelDriver_0_rstb 1 3 1 1110 900n
+preplace netloc NeopixelDriver_0_web 1 3 1 1080 920n
+preplace netloc Pmod_I2S2_0_addra 1 3 1 1210 150n
+preplace netloc Pmod_I2S2_0_addrb 1 3 1 1140 250n
+preplace netloc Pmod_I2S2_0_dina 1 3 1 1200 170n
+preplace netloc Pmod_I2S2_0_dinb 1 3 1 1130 270n
+preplace netloc Pmod_I2S2_0_ena 1 3 1 1190 190n
+preplace netloc Pmod_I2S2_0_enb 1 3 1 1120 290n
+preplace netloc Pmod_I2S2_0_rsta 1 3 1 1160 210n
+preplace netloc Pmod_I2S2_0_rstb 1 3 1 1110 310n
+preplace netloc Pmod_I2S2_0_sclk 1 3 2 NJ 90 1480J
+preplace netloc Pmod_I2S2_0_sd_tx 1 3 2 1090J 120 1480J
+preplace netloc Pmod_I2S2_0_wea 1 3 1 1150 230n
+preplace netloc Pmod_I2S2_0_web 1 3 1 1080 330n
+preplace netloc Pmod_I2S2_0_ws 1 3 2 NJ 110 1490J
+preplace netloc axi_bram_ctrl_0_bram_doutb 1 2 2 800 1120 1220J
+preplace netloc axi_bram_ctrl_1_bram_doutb 1 2 2 790 10 1220J
+preplace netloc axi_bram_ctrl_2_bram_doutb 1 2 2 800 20 1170
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 10 600 420 600 780
+preplace netloc processing_system7_0_FCLK_CLK1 1 1 3 450J 710 770 760 1170J
+preplace netloc processing_system7_0_FCLK_CLK2 1 1 4 430 180 740 30 1180 400 1490J
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 20 940 440
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 2 460 690 790
+preplace netloc sd_rx_0_1 1 0 3 NJ 190 NJ 190 NJ
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 3 1 1190 780n
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 3 1 1090 180n
+preplace netloc axi_bram_ctrl_2_BRAM_PORTA 1 3 1 1100 460n
+preplace netloc axi_smc_M00_AXI 1 2 1 740 770n
+preplace netloc axi_smc_M01_AXI 1 2 1 760 440n
+preplace netloc axi_smc_M02_AXI 1 2 1 800 580n
+preplace netloc axi_smc_M03_AXI 1 2 1 N 830
+preplace netloc axi_smc_M04_AXI 1 2 1 750 150n
+preplace netloc processing_system7_0_DDR 1 1 4 NJ 680 NJ 680 NJ 680 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 4 NJ 700 NJ 700 NJ 700 1480J
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 440 790n
+levelinfo -pg 1 -10 220 600 940 1350 1510
+pagesize -pg 1 -db -bbox -sgen -110 0 1630 1150
+"
+}
+{
+   "da_axi4_cnt":"5",
+   "da_bram_cntlr_cnt":"5",
+   "da_ps7_cnt":"1"
+}

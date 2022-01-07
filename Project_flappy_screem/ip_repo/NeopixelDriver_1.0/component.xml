@@ -266,7 +266,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>a59f8b4b</spirit:value>
+            <spirit:value>27b91214</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -282,7 +282,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>a59f8b4b</spirit:value>
+            <spirit:value>27b91214</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -444,19 +444,6 @@
           <spirit:wireTypeDefs>
             <spirit:wireTypeDef>
               <spirit:typeName>STD_LOGIC_VECTOR</spirit:typeName>
-              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
-              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
-            </spirit:wireTypeDef>
-          </spirit:wireTypeDefs>
-        </spirit:wire>
-      </spirit:port>
-      <spirit:port>
-        <spirit:name>enLed</spirit:name>
-        <spirit:wire>
-          <spirit:direction>out</spirit:direction>
-          <spirit:wireTypeDefs>
-            <spirit:wireTypeDef>
-              <spirit:typeName>std_logic</spirit:typeName>
               <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
               <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
             </spirit:wireTypeDef>
@@ -818,7 +805,7 @@
       <spirit:file>
         <spirit:name>hdl/NeopixelDriver_v1_0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_341d16b1</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_603f9086</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -951,8 +938,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>NeopixelDriver_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>18</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2021-12-22T09:15:20Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>19</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2022-01-06T17:10:54Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="ui.data.coregen.df@5845d8e7_ARCHIVE_LOCATION">c:/Xilinx/EOS/NeopixelDriverIP/NeopixelDriver_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.df@1b24a2d4_ARCHIVE_LOCATION">c:/Xilinx/EOS/NeopixelDriverIP/NeopixelDriver_1.0</xilinx:tag>
@@ -1184,14 +1171,31 @@
         <xilinx:tag xilinx:name="ui.data.coregen.df@edb165f_ARCHIVE_LOCATION">c:/Xilinx/EOS/NeopixelDriverIP/NeopixelDriver_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.df@45864768_ARCHIVE_LOCATION">c:/Xilinx/EOS/NeopixelDriverIP/NeopixelDriver_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.df@4aae159d_ARCHIVE_LOCATION">c:/Xilinx/EOS/NeopixelDriverIP/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2b3df0c5_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@9946139_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@59b87c69_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@32af4126_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@42fdfde1_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@700b3a23_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@1cfc3fa_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@434ac300_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@12eec484_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@78b5b2_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@2ac83f0b_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@7a17a813_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@66a2d26f_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@6c378779_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@689658fb_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@25b44d19_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.df@3e6db2a0_ARCHIVE_LOCATION">c:/Xilinx/EOS/project_flappy_screem/Flappy_SCREEEM/Project_flappy_screem/ip_repo/NeopixelDriver_1.0</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2021.1</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="7a63f3fc"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="ed1368d5"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="409894c6"/>
-      <xilinx:checksum xilinx:scope="ports" xilinx:value="7d96ce61"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="8e4e0a7f"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="81802baa"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="6992ea72"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="fd7443bb"/>
     </xilinx:packagingInfo>
